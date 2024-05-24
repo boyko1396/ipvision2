@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - Blog'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-black header--type-normal'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- intro-typical BEGIN -->
+          <section class="intro-typical">
+            <div class="container intro-typical__container">
+              <ul class="u-breadcrumbs u-breadcrumbs--theme-black intro-typical__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="/" itemprop="item">
+                    <span itemprop="name">Main</span>
+                  </a>
+                  <meta itemprop="position" content="1"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <span itemprop="name">Blog</span>
+                  <meta itemprop="position" content="2"/>
+                </li>
+              </ul>
+              <header class="intro-typical__header">
+                <div class="row intro-typical__header-row">
+                  <div class="row__col--7 intro-typical__header-col intro-typical__header-col--title">
+                    <h1 class="intro-typical__title">Blog</h1>
+                  </div>
+                  <div class="row__col--7 intro-typical__header-col intro-typical__header-col--content">
+                    <div class="content content--size-md intro-typical__text">
+                      <p>Our blog is a hub of knowledge where our team of experts shares valuable insights, practical tips, and thought-provoking analyses on a wide range of topics, including software development, cybersecurity, artificial intelligence, cloud computing, and more.</p>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <div class="grid-list grid-list--size-custom-3 grid-list--gap-sm intro-typical__blog">
+                <div class="row grid-list__row">
+                  <div class="row__col grid-list__col">
+                    <article class="blog-card grid-list__card">
+                      <div class="blog-card__inner">
+                        <div class="blog-card__media">
+                          <picture class="blog-card__picture">
+                            <source
+                              srcset="assets/images/blog-card-1@2x.webp 2x,
+                                      assets/images/blog-card-1.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/blog-card-1.jpg"
+                              srcset="assets/images/blog-card-1@2x.jpg 2x"
+                              width="491" height="320" alt="Building Future-Ready HR Applications: The Angular and Kotlin Synergy">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-sm blog-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="blog-card__main">
+                          <div class="blog-card__content">
+                            <div class="blog-card__info">
+                              <div class="blog-card__info-badge">News</div>
+                              <time class="blog-card__info-date" datetime="2024-04-15">15.04.2024</time>
+                            </div>
+                            <h3 class="title-size-4 blog-card__title">
+                              <a href="#" class="blog-card__link">Building Future-Ready HR Applications: The Angular and Kotlin Synergy</a>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="blog-card grid-list__card">
+                      <div class="blog-card__inner">
+                        <div class="blog-card__media">
+                          <picture class="blog-card__picture">
+                            <source
+                              srcset="assets/images/blog-card-2@2x.webp 2x,
+                                      assets/images/blog-card-2.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/blog-card-2.jpg"
+                              srcset="assets/images/blog-card-2@2x.jpg 2x"
+                              width="491" height="320" alt="NLP">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-sm blog-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="blog-card__main">
+                          <div class="blog-card__content">
+                            <div class="blog-card__info">
+                              <div class="blog-card__info-badge">Article</div>
+                              <time class="blog-card__info-date" datetime="2024-04-10">10.04.2024</time>
+                            </div>
+                            <h3 class="title-size-4 blog-card__title">
+                              <a href="#" class="blog-card__link">NLP</a>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="blog-card grid-list__card">
+                      <div class="blog-card__inner">
+                        <div class="blog-card__media">
+                          <picture class="blog-card__picture">
+                            <source
+                              srcset="assets/images/blog-card-3@2x.webp 2x,
+                                      assets/images/blog-card-3.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/blog-card-3.jpg"
+                              srcset="assets/images/blog-card-3@2x.jpg 2x"
+                              width="491" height="320" alt="Leveraging Natural Language Processing for Text Optimization: A Game-Changer in Content Creation">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-sm blog-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="blog-card__main">
+                          <div class="blog-card__content">
+                            <div class="blog-card__info">
+                              <div class="blog-card__info-badge">News</div>
+                              <time class="blog-card__info-date" datetime="2024-04-01">01.04.2024</time>
+                            </div>
+                            <h3 class="title-size-4 blog-card__title">
+                              <a href="#" class="blog-card__link">Leveraging Natural Language Processing for Text Optimization: A Game-Changer in Content Creation</a>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="blog-card grid-list__card">
+                      <div class="blog-card__inner">
+                        <div class="blog-card__media">
+                          <picture class="blog-card__picture">
+                            <source
+                              srcset="assets/images/blog-card-4@2x.webp 2x,
+                                      assets/images/blog-card-4.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/blog-card-4.jpg"
+                              srcset="assets/images/blog-card-4@2x.jpg 2x"
+                              width="491" height="320" alt="Implementing NLP for Text Optimization: A Practical Approach">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-sm blog-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="blog-card__main">
+                          <div class="blog-card__content">
+                            <div class="blog-card__info">
+                              <div class="blog-card__info-badge">Article</div>
+                              <time class="blog-card__info-date" datetime="2024-03-25">25.03.2024</time>
+                            </div>
+                            <h3 class="title-size-4 blog-card__title">
+                              <a href="#" class="blog-card__link">Implementing NLP for Text Optimization: A Practical Approach</a>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="blog-card grid-list__card">
+                      <div class="blog-card__inner">
+                        <div class="blog-card__media">
+                          <picture class="blog-card__picture">
+                            <source
+                              srcset="assets/images/blog-card-5@2x.webp 2x,
+                                      assets/images/blog-card-5.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/blog-card-5.jpg"
+                              srcset="assets/images/blog-card-5@2x.jpg 2x"
+                              width="491" height="320" alt="Ensuring Excellence in Corporate Communication: A Guide for Cyprus IT Companies">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-sm blog-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="blog-card__main">
+                          <div class="blog-card__content">
+                            <div class="blog-card__info">
+                              <div class="blog-card__info-badge">News</div>
+                              <time class="blog-card__info-date" datetime="2024-03-10">10.03.2024</time>
+                            </div>
+                            <h3 class="title-size-4 blog-card__title">
+                              <a href="#" class="blog-card__link">Ensuring Excellence in Corporate Communication: A Guide for Cyprus IT Companies</a>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="blog-card grid-list__card">
+                      <div class="blog-card__inner">
+                        <div class="blog-card__media">
+                          <picture class="blog-card__picture">
+                            <source
+                              srcset="assets/images/blog-card-6@2x.webp 2x,
+                                      assets/images/blog-card-6.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/blog-card-6.jpg"
+                              srcset="assets/images/blog-card-6@2x.jpg 2x"
+                              width="491" height="320" alt="Building Future-Ready HR Applications: The Angular and Kotlin Synergy">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-sm blog-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="blog-card__main">
+                          <div class="blog-card__content">
+                            <div class="blog-card__info">
+                              <div class="blog-card__info-badge">News</div>
+                              <time class="blog-card__info-date" datetime="2024-02-20">20.02.2024</time>
+                            </div>
+                            <h3 class="title-size-4 blog-card__title">
+                              <a href="#" class="blog-card__link">Building Future-Ready HR Applications: The Angular and Kotlin Synergy</a>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- intro-typical END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>

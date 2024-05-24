@@ -1,0 +1,206 @@
+.layout-intro {
+  background: $gradient1;
+  color: $whiteColor;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &--theme {
+    &-1 {
+      background: $gradient1;
+      .layout-intro__picture {
+        @media (min-width: $xxl-mf) {
+        }
+        @media (max-width: $xxl) {
+        }
+      }
+    }
+    &-2 {
+      background: $gradient2;
+      .layout-intro__picture {
+        @media (min-width: $xxl-mf) {
+          margin-left: -120rem;
+        }
+        @media (max-width: $xxl) {
+          margin-top: 20rem;
+          margin-left: -76rem;
+        }
+        @media (max-width: $xl) {
+          margin-left: 0;
+        }
+        @media (max-width: $xs) {
+          width: 228rem !important;
+          margin: 0 12rem 20rem auto !important;
+        }
+      }
+    }
+    &-3 {
+      background: $gradient3;
+      .layout-intro__picture {
+        @media (min-width: $xxl-mf) {
+          margin-left: -120rem;
+        }
+        @media (max-width: $xxl) {
+          margin-top: 44rem;
+          margin-left: -142rem;
+        }
+        @media (max-width: $xl) {
+          margin-top: 22rem;
+          margin-left: -40rem;
+        }
+        @media (max-width: $xs) {
+          width: 222rem !important;
+          margin: 0 -90rem -40rem auto !important;
+        }
+      }
+      .layout-intro__col--hero {
+        @media (max-width: $xs) {
+        }
+      }
+    }
+    &-4 {
+      background: $gradient4;
+      .layout-intro__picture {
+        @media (min-width: $xxl-mf) {
+          margin-left: -190rem;
+        }
+        @media (max-width: $xxl) {
+          margin-top: 30rem;
+          margin-left: -268rem;
+        }
+        @media (max-width: $xl) {
+          margin-top: 16rem;
+          margin-left: -140rem;
+        }
+        @media (max-width: $lg) {
+          margin-left: -100rem;
+        }
+        @media (max-width: $md) {
+          margin-left: -116rem;
+        }
+        @media (max-width: $xs) {
+          width: 248rem !important;
+          margin: -10rem 0 24rem auto !important;
+        }
+      }
+    }
+  }
+  &__container {
+  }
+  &__inner {
+    min-height: 880rem;
+    padding-top: var(--rhythm-4);
+    padding-bottom: var(--rhythm-3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    @media (max-width: $xl) {
+      min-height: 550rem;
+    }
+    @media (max-width: $lg) {
+      min-height: 440rem;
+    }
+    @media (max-width: $xs) {
+      min-height: 560rem;
+    }
+  }
+  &__breadcrumbs {
+    margin: 0;
+    @media (max-width: $lg) {
+      font-size: 12rem;
+    }
+    @media (max-width: $xs) {
+      letter-spacing: -.005em;
+    }
+  }
+  &__content {
+    margin: auto 0 0;
+    padding: 90rem 0 0;
+    @media (max-width: $xl) {
+      padding-top: 60rem;
+    }
+    @media (max-width: $xs) {
+      padding-top: 10rem;
+    }
+  }
+  &__row {
+  }
+  &__col {
+    &--title {
+      @media (max-width: $xs) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+    &--hero {
+    }
+    &--text {
+      @media (max-width: $md) {
+        max-width: 70%;
+        flex-basis: 70%;
+      }
+      @media (max-width: $xs) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+    &--action {
+    }
+  }
+  &__picture {
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 1280rem;
+    transform: translateY(-50%);
+    z-index: -1;
+    @media (min-width: $xxl-mf) {
+      width: 1060rem;
+      margin-top: 26rem;
+    }
+    @media (max-width: $xxl) {
+      width: 684rem;
+    }
+    @media (max-width: $xl) {
+      width: 428rem;
+      left: 780rem;
+      margin-top: 20rem;
+    }
+    @media (max-width: $lg) {
+      width: 342rem;
+      left: 618rem;
+      margin-top: 8rem;
+    }
+    @media (max-width: $md) {
+      left: 408rem;
+    }
+    @media (max-width: $xs) {
+      width: 206rem !important;
+      margin: 0 0 40rem !important;
+      position: relative;
+      top: 0 !important;
+      left: 0 !important;
+      transform: none !important;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  &__title {
+    margin-bottom: var(--rhythm-1);
+  }
+  &__text {
+    margin-bottom: var(--rhythm-2);
+    @media (max-width: $md) {
+      margin-bottom: 32rem;
+    }
+    @media (max-width: $xs) {
+      margin-bottom: var(--rhythm-2);
+    }
+  }
+  &__btn {
+  }
+}

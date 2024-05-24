@@ -1,0 +1,110 @@
+.team-section {
+  padding: var(--rhythm-6) 0;
+  &__container {
+  }
+  &__row {
+  }
+  &__col {
+    &--nav {
+    }
+    &--main {
+      @media (max-width: $md) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+  }
+  &__nav {
+    position: sticky;
+    top: 140rem;
+    @media (max-width: $xl) {
+      top: 88rem;
+    }
+  }
+  &__content {
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__title {
+    margin: 0 0 var(--rhythm-2);
+    @media (max-width: $lg) {
+      margin-bottom: 24rem;
+    }
+  }
+  &__description {
+    margin: 0 0 var(--rhythm-6);
+  }
+  &__list {
+    margin-bottom: var(--rhythm-6);
+    &-card {
+      &:not(:last-child) {
+        margin-bottom: var(--rhythm-6);
+      }
+    }
+  }
+  &__development-team {
+    padding-bottom: var(--rhythm-6);
+    &-card {
+      border-bottom: 1px solid $blackColor;
+    }
+  }
+  &__conclusion {
+    margin-bottom: var(--rhythm-6);
+    &-title {
+      margin: 0 0 var(--rhythm-2);
+      @media (max-width: $lg) {
+        margin-bottom: 24rem;
+      }
+      @media (max-width: $md) {
+        margin-bottom: 16rem;
+      }
+    }
+    &-text {
+    }
+  }
+  &__partners {
+    padding: 0 0 var(--rhythm-6);
+    &-title {
+      margin: 0 0 var(--rhythm-11);
+      @media (max-width: $lg) {
+        margin-bottom: var(--rhythm-2);
+      }
+    }
+    &-list {
+      margin-bottom: calc(-1 * var(--rhythm-11));
+      justify-content: space-between;
+      &-col {
+        max-width: 42.8571428571%;
+        flex: 0 0 42.8571428571%;
+        @media (max-width: $lg) {
+          max-width: 100%;
+          flex-basis: 100%;
+        }
+      }
+      &-card {
+        margin-bottom: var(--rhythm-11);
+      }
+    }
+  }
+  &__technologies {
+    > :last-child {
+      margin-bottom: 0;
+    }
+    &-title {
+      margin: 0 0 var(--rhythm-3);
+      @media (max-width: $lg) {
+        margin-bottom: var(--rhythm-2);
+      }
+      @media (max-width: $md) {
+        margin-bottom: 8rem;
+      }
+    }
+    &-list {
+      margin-bottom: var(--rhythm-6);
+      &-card {
+        border-bottom: 1px solid $blackColor;
+      }
+    }
+  }
+}

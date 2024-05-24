@@ -1,0 +1,173 @@
+$siteResolutionXxl: 1px;
+$siteResolutionXl: .05208333333vw;
+$siteResolutionLg: .08333333333vw;
+$siteResolutionMd: .10416666666vw;
+$siteResolutionXs: .15625vw;
+$siteResolutionExs: .26666666666vw;
+$mainFont: 'Inter';
+$mainWeight: 400;
+$lineHeightTitle: 1.20833333333;
+$lineHeightXs: 1.1875;
+$lineHeightSmall: 1.21428571429;
+$lineHeightSemi: 1.33;
+$lineHeightMedium: 1.5;
+$lineHeightDefault: $lineHeightSmall;
+
+$containerWidth: 1660rem;
+
+$gap: 15rem;
+$gapFluid: 30rem;
+
+$whiteColor: #ffffff;
+$grayColor: #A39F9F;
+$blackColor: #252525;
+$blueColor: #3B5EEF;
+$blueDarkColor: #3326D2;
+$accentColor: $blueColor;
+
+$gradient1: linear-gradient(263.32deg, #3F30E3 1.87%, #359EFF 99.37%);
+$gradient2: linear-gradient(83.37deg, #584199 -9.56%, #63B4FF 93.64%);
+$gradient3: linear-gradient(262.56deg, #3792FC 9.17%, #435FC5 98.92%);
+$gradient4: linear-gradient(87.79deg, #3F30E3 0.18%, #359EFF 101.14%);
+$gradient5: linear-gradient(91.37deg, #3F30E3 -0.87%, #359EFF 94.19%);
+$gradient6: linear-gradient(282.58deg, #3F30E3 4.41%, #359EFF 82.85%);
+$gradient7: linear-gradient(184.88deg, #3F30E3 -26.96%, #359EFF 91.76%);
+$gradient8: linear-gradient(300.33deg, #584199 17.98%, #63B4FF 89.51%);
+$gradient9: linear-gradient(263.46deg, #584199 5.42%, #63B4FF 58.37%);
+
+$fontFamily: $mainFont, Open Sans, sans-serif, Arial;
+$fontColor: $blackColor;
+$fontWeight: $mainWeight;
+
+$transition: all .4s 0ms;
+
+$radiusXs: 10rem;
+$radiusLg: 70rem;
+
+$xxl: 1920px;
+$xxl-mf: $xxl + 1;
+
+$xl: 1340px;
+$xl-mf: $xl + 1;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 959px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 639px;
+$xs-mf: $xs + 1;
+
+:root {
+  --fs-default: 16rem;
+  --fs-1: 96rem;
+  --fs-2: 80rem;
+  --fs-3: 48rem;
+  --fs-4: 24rem;
+  --fs-5: 20rem;
+  --fs-6: 16rem;
+  --fs-7: 150rem;
+  --fs-8: 14rem;
+  --fs-9: 12rem;
+  --fs-10: 10rem;
+  --fs-11: 40rem;
+  --gap: 5rem;
+  --gap-: -5rem;
+  --gap-fluid: 30rem;
+  --gap-fluid-: -30rem;
+
+  --rhythm-1: 24rem;
+  --rhythm-2: 40rem;
+  --rhythm-3: 80rem;
+  --rhythm-4: 134rem;
+  --rhythm-5: 16rem;
+  --rhythm-6: 140rem;
+  --rhythm-7: 8rem;
+  --rhythm-8: 4rem;
+  --rhythm-9: 48rem;
+  --rhythm-10: 16rem;
+  --rhythm-11: 64rem;
+  --rhythm-12: 124rem;
+  --rhythm-13: 60rem;
+  --rhythm-14: 70rem;
+  --rhythm-15: 32rem;
+  --rhythm-16: 25rem;
+
+  --stack-cards-gap: 96rem;
+  @media (max-width: $xl) {
+    --fs-default: 10rem;
+    --fs-1: 60rem;
+    --fs-2: 50rem;
+    --fs-3: 30rem;
+    --fs-4: 15rem;
+    --fs-7: 93.7rem;
+    --fs-8: 9rem;
+    --fs-11: 25rem;
+    --rhythm-15: 16rem;
+
+    --rhythm-1: 15rem;
+    --rhythm-2: 25rem;
+    --rhythm-3: 50rem;
+    --rhythm-4: 84rem;
+    --rhythm-5: 10rem;
+    --rhythm-6: 88rem;
+    --rhythm-7: 5rem;
+    --rhythm-9: 30rem;
+    --rhythm-9: 30rem;
+    --rhythm-10: 10rem;
+    --rhythm-12: 78rem;
+
+    --stack-cards-gap: 60rem;
+  }
+  @media (max-width: $lg) {
+    --fs-default: 12rem;
+    --fs-1: 48rem;
+    --fs-2: 40rem;
+    --fs-3: 24rem;
+    --fs-4: 16rem;
+    --fs-7: 75rem;
+    --fs-8: 12rem;
+
+    --rhythm-1: 8rem;
+    --rhythm-2: 32rem;
+    --rhythm-3: 56rem;
+    --rhythm-4: 72rem;
+    --rhythm-5: 8rem;
+    --rhythm-6: 80rem;
+    --rhythm-7: 8rem;
+    --rhythm-9: 24rem;
+    --rhythm-10: 8rem;
+    --rhythm-11: 24rem;
+    --rhythm-12: 80rem;
+
+    --stack-cards-gap: 48rem;
+  }
+  @media (max-width: $md) {
+    --fs-default: 10rem;
+    --fs-1: 32rem;
+    --fs-2: 24rem;
+    --fs-3: 16rem;
+    --fs-4: 12rem;
+    --fs-7: 50rem;
+    --fs-8: 10rem;
+
+    --rhythm-2: 24rem;
+    --rhythm-4: 64rem;
+    --rhythm-6: 40rem;
+    --rhythm-12: 40rem;
+
+    --stack-cards-gap: 40rem;
+  }
+  @media (max-width: $xs) {
+    --fs-1: 24rem;
+    --fs-7: 56rem;
+    --gap-fluid: 24rem;
+    --gap-fluid-: -24rem;
+
+    --rhythm-3: 40rem;
+  }
+}

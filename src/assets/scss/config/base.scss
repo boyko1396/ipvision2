@@ -1,0 +1,36 @@
+@import 'keyframes';
+
+.container {
+  width: 100%;
+  max-width: $containerWidth;
+  margin: 0 auto;
+  padding: 0 var(--gap-fluid);
+  @media (max-width: $xl) {
+    max-width: 1060rem;
+  }
+  @media (max-width: $lg) {
+    max-width: 860rem;
+  }
+  @media (max-width: $md) {
+    max-width: 594rem;
+  }
+  @media (max-width: $xs) {
+    max-width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  &__col {
+    max-width: 100%;
+    min-height: 1rem;
+    @for $i from 1 through 10 {
+      &--#{$i} {
+        @extend .row__col;
+        max-width: percentage(math.div($i, 10));
+        flex-basis: percentage(math.div($i, 10));
+      }
+    }
+  }
+}

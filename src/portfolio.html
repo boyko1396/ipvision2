@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - Portfolio'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-black header--type-normal'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- intro-typical BEGIN -->
+          <section class="intro-typical">
+            <div class="container intro-typical__container">
+              <ul class="u-breadcrumbs u-breadcrumbs--theme-black intro-typical__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="/" itemprop="item">
+                    <span itemprop="name">Main</span>
+                  </a>
+                  <meta itemprop="position" content="1"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <span itemprop="name">Portfolio</span>
+                  <meta itemprop="position" content="2"/>
+                </li>
+              </ul>
+              <header class="intro-typical__header">
+                <div class="row intro-typical__header-row">
+                  <div class="row__col--7 intro-typical__header-col intro-typical__header-col--title">
+                    <h1 class="intro-typical__title">Portfolio</h1>
+                  </div>
+                  <div class="row__col--7 intro-typical__header-col intro-typical__header-col--content">
+                    <div class="content content--size-md intro-typical__text">
+                      <p>Our case studies cover diverse industries, from finance to healthcare, serving small businesses and large corporations alike. Each one showcases unique success stories where we've innovated solutions, enabling clients to thrive in the digital era.</p>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <div class="grid-list grid-list--size-4 grid-list--gap-md intro-typical__portfolio">
+                <div class="row grid-list__row">
+                  <div class="row__col grid-list__col">
+                    <article class="portfolio-card grid-list__card">
+                      <div class="portfolio-card__inner">
+                        <div class="portfolio-card__media">
+                          <picture class="portfolio-card__picture">
+                            <source
+                              srcset="assets/images/portfolio-card-1@2x.webp 2x,
+                                      assets/images/portfolio-card-1.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/portfolio-card-1.jpg"
+                              srcset="assets/images/portfolio-card-1@2x.jpg 2x"
+                              width="640" height="556" alt="A Sustainable Living Web Application">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-md portfolio-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="portfolio-card__main">
+                          <div class="portfolio-card__content">
+                            <h3 class="portfolio-card__title">
+                              <a href="#" class="portfolio-card__link">A Sustainable Living Web Application</a>
+                            </h3>
+                            <div class="content content--size-md portfolio-card__text">
+                              <p>A web app to track carbon footprint, suggest eco-friendly actions, and connect with local sustainable businesses.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="portfolio-card grid-list__card">
+                      <div class="portfolio-card__inner">
+                        <div class="portfolio-card__media">
+                          <picture class="portfolio-card__picture">
+                            <source
+                              srcset="assets/images/portfolio-card-2@2x.webp 2x,
+                                      assets/images/portfolio-card-2.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/portfolio-card-2.jpg"
+                              srcset="assets/images/portfolio-card-2@2x.jpg 2x"
+                              width="640" height="556" alt="Streamlining Workflow Efficiency">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-md portfolio-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="portfolio-card__main">
+                          <div class="portfolio-card__content">
+                            <h3 class="portfolio-card__title">
+                              <a href="#" class="portfolio-card__link">Streamlining Workflow Efficiency</a>
+                            </h3>
+                            <div class="content content--size-md portfolio-card__text">
+                              <p>A web app to track carbon footprint, suggest eco-friendly actions, and connect with local sustainable businesses.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="portfolio-card grid-list__card">
+                      <div class="portfolio-card__inner">
+                        <div class="portfolio-card__media">
+                          <picture class="portfolio-card__picture">
+                            <source
+                              srcset="assets/images/portfolio-card-3@2x.webp 2x,
+                                      assets/images/portfolio-card-3.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/portfolio-card-3.jpg"
+                              srcset="assets/images/portfolio-card-3@2x.jpg 2x"
+                              width="640" height="556" alt="Streamlining Workflow Efficiency">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-md portfolio-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="portfolio-card__main">
+                          <div class="portfolio-card__content">
+                            <h3 class="portfolio-card__title">
+                              <a href="#" class="portfolio-card__link">Streamlining Workflow Efficiency</a>
+                            </h3>
+                            <div class="content content--size-md portfolio-card__text">
+                              <p>A web app to track carbon footprint, suggest eco-friendly actions, and connect with local sustainable businesses.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="row__col grid-list__col">
+                    <article class="portfolio-card grid-list__card">
+                      <div class="portfolio-card__inner">
+                        <div class="portfolio-card__media">
+                          <picture class="portfolio-card__picture">
+                            <source
+                              srcset="assets/images/portfolio-card-4@2x.webp 2x,
+                                      assets/images/portfolio-card-4.webp"
+                                      type="image/webp">
+                            <img
+                              src="assets/images/portfolio-card-4.jpg"
+                              srcset="assets/images/portfolio-card-4@2x.jpg 2x"
+                              width="640" height="556" alt="A Sustainable Living Web Application">
+                          </picture>
+                          <span class="link-circle link-circle--theme-white link-circle--size-md portfolio-card__link-circle">
+                            <svg class="u-icon link-circle__icon">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div class="portfolio-card__main">
+                          <div class="portfolio-card__content">
+                            <h3 class="portfolio-card__title">
+                              <a href="#" class="portfolio-card__link">A Sustainable Living Web Application</a>
+                            </h3>
+                            <div class="content content--size-md portfolio-card__text">
+                              <p>A web app to track carbon footprint, suggest eco-friendly actions, and connect with local sustainable businesses.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- intro-typical END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>

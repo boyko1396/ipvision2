@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - Contacts'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-black header--type-normal'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- intro-typical BEGIN -->
+          <section class="intro-typical">
+            <div class="container intro-typical__container">
+              <ul class="u-breadcrumbs u-breadcrumbs--theme-black intro-typical__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="/" itemprop="item">
+                    <span itemprop="name">Main</span>
+                  </a>
+                  <meta itemprop="position" content="1"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <span itemprop="name">Contacts</span>
+                  <meta itemprop="position" content="2"/>
+                </li>
+              </ul>
+              <div class="row intro-typical__contacts">
+                <div class="row__col--10 intro-typical__contacts-col intro-typical__contacts-col--title">
+                  <h1 class="intro-typical__contacts-title">Сontacts</h1>
+                </div>
+                <div class="row__col--3 intro-typical__contacts-col intro-typical__contacts-col--address">
+                  <div class="content content--size-md intro-typical__contacts-address">
+                    <p>Nikou Georgiou, 6 BLOCK C, 3rd&nbsp;floor, Flat/Office 304 1095</p>
+                  </div>
+                </div>
+                <div class="row__col--7 intro-typical__contacts-col intro-typical__contacts-col--email">
+                  <div class="content content--size-md intro-typical__contacts-email">
+                    <a href="mailto:office@ipvision-lab.dev" target="_blank">office@ipvision-lab.dev</a>
+                  </div>
+                </div>
+                <div class="row__col--10 intro-typical__contacts-col intro-typical__contacts-col--map">
+                  <div class="intro-typical__contacts-map"></div>
+                </div>
+                <div class="row__col--3 intro-typical__contacts-col intro-typical__contacts-col--subtitle">
+                  <h2 class="intro-typical__contacts-subtitle">Details</h2>
+                </div>
+                <div class="row__col--7 intro-typical__contacts-col intro-typical__contacts-col--contacts">
+                  <ul class="intro-typical__contacts-list">
+                    <li><strong>Name:</strong> Ipvision lab limited</li>
+                    <li><strong>Address:</strong> Chatziloizi, Mikailidi 16, Limassol, 3041 Cyprus</li>
+                    <li><strong>Registration number:</strong> HE 450744</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- intro-typical END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>

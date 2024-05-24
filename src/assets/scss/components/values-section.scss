@@ -1,0 +1,63 @@
+.values-section {
+  padding: 70rem 0 140rem;
+  @media (max-width: $xl) {
+    padding-top: 57rem;
+    padding-bottom: 88rem;
+  }
+  @media (max-width: $lg) {
+    padding-bottom: 75rem;
+  }
+  @media (max-width: $md) {
+    padding-top: 20rem;
+    padding-bottom: 40rem;
+  }
+  &__container {
+  }
+  &__row {
+    display: flex;
+    @media (max-width: $xs) {
+      flex-wrap: wrap;
+    }
+  }
+  &__col {
+    &--title {
+      max-width: 30%;
+      flex: 0 0 30%;
+      @media (max-width: $xs) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+    &--content {
+      flex-grow: 1;
+      @media (max-width: $xs) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+  }
+  &__title {
+    margin: 0;
+    @media (max-width: $xs) {
+      margin-bottom: 16rem;
+    }
+  }
+  &__list {
+    margin: -16rem 0 0;
+    @media (max-width: $xl) {
+      margin-top: -12rem;
+    }
+    @media (max-width: $lg) {
+      margin-top: -10rem;
+    }
+    @media (max-width: $md) {
+      margin-top: -8rem;
+    }
+    @media (max-width: $xs) {
+      margin-top: 0;
+    }
+    &-card {
+      border-bottom: 1px solid $blackColor;
+    }
+  }
+}

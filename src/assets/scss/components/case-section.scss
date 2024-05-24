@@ -1,0 +1,111 @@
+.case-section {
+  padding: 0 0 var(--rhythm-6);
+  &__container {
+  }
+  &__row {
+    justify-content: space-between;
+  }
+  &__col {
+    &--aside {
+      @media (max-width: $md) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+    &--main {
+      @media (max-width: $md) {
+        max-width: 100%;
+        flex-basis: 100%;
+        order: -1;
+      }
+    }
+  }
+  &__aside {
+    @media (max-width: $md) {
+      margin-top: 40rem;
+    }
+    &--position {
+      &-sticky {
+        position: sticky;
+        top: 140rem;
+        @media (max-width: $xl) {
+          top: 88rem;
+        }
+      }
+    }
+    &-title {
+      margin: 0 0 var(--rhythm-15);
+      @media (max-width: $xl) {
+        margin-bottom: 20rem;
+      }
+      @media (max-width: $lg) {
+        margin-bottom: 16rem;
+      }
+      @media (max-width: $md) {
+        font-size: var(--fs-2);
+      }
+    }
+    &-list {
+      @media (max-width: $md) {
+        margin: 0 -12rem;
+        display: flex;
+      }
+      &-col {
+        @media (max-width: $xl) {
+          margin-bottom: 20rem;
+        }
+        @media (max-width: $lg) {
+          margin-bottom: 16rem;
+        }
+        @media (max-width: $md) {
+          max-width: 50%;
+          padding: 0 12rem;
+          display: none;
+          flex: 0 0 50%;
+        }
+        &:first-child,
+        &:nth-child(2) {
+          @media (max-width: $md) {
+            display: block;
+          }
+        }
+        &:not(:last-child) {
+          @media (min-width: $md-mf) {
+            margin: 0 0 var(--rhythm-15);
+          }
+        }
+      }
+      &-card {
+      }
+    }
+  }
+  &__main {
+  }
+  &__footer {
+    padding-top: var(--fs-2);
+    &-action {
+      margin: 0 -4rem;
+      flex-wrap: nowrap;
+      @media (max-width: $md) {
+        flex-wrap: wrap;
+      }
+      &-item {
+        max-width: 33.33%;
+        padding: 0 4rem;
+        flex: 0 0 33.33%;
+        @media (max-width: $md) {
+          max-width: 100%;
+          flex-basis: 100%;
+        }
+        &:not(:last-child) {
+          @media (max-width: $md) {
+            margin-bottom: 8rem;
+          }
+        }
+      }
+      &-btn {
+        width: 100%;
+      }
+    }
+  }
+}

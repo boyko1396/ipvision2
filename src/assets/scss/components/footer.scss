@@ -1,0 +1,219 @@
+.footer {
+  background: $gradient4;
+  padding: 92rem 0 89rem;
+  color: $whiteColor;
+  @media (max-width: $xl) {
+    padding: 58rem 0 55rem;
+  }
+  @media (max-width: $lg) {
+    padding-top: 46rem;
+    padding-bottom: 42rem;
+  }
+  @media (max-width: $md) {
+    padding-top: 40rem;
+    padding-bottom: 40rem;
+  }
+  &__container {
+  }
+  &__row {
+    display: flex;
+  }
+  &__col {
+    &--contacts {
+      @media (max-width: $xs) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+    &--nav {
+      @media (max-width: $xs) {
+        display: none;
+      }
+    }
+    &--services {
+      @media (max-width: $md) {
+        max-width: 50%;
+        flex-basis: 50%;
+      }
+      @media (max-width: $xs) {
+        display: none;
+      }
+    }
+  }
+  &__link {
+    font-weight: 300;
+    transition: $transition;
+    @media (max-width: $xl) {
+    }
+    @media (max-width: $lg) {
+      font-size: var(--fs-default);
+    }
+    @media (max-width: $md) {
+      font-size: var(--fs-4);
+    }
+    &:hover {
+      text-decoration: none;
+      @media (min-width: $lg-mf) {
+        opacity: .5;
+      }
+    }
+  }
+  &__contacts {
+    @media (max-width: $xl) {
+    }
+    @media (max-width: $md) {
+    }
+    @media (max-width: $xs) {
+    }
+    &-email {
+      margin: 0 0 36rem;
+      @media (max-width: $xl) {
+        margin-bottom: 22rem;
+      }
+      @media (max-width: $lg) {
+        margin-bottom: 14rem;
+      }
+      @media (max-width: $xs) {
+        margin-bottom: 7rem;
+      }
+      a {
+        font-weight: 300;
+        transition: $transition;
+        @media (max-width: $md) {
+          font-size: var(--fs-default);
+        }
+        @media (max-width: $xs) {
+        }
+        &:hover {
+          text-decoration: none;
+          @media (min-width: $lg-mf) {
+          }
+        }
+      }
+    }
+    &-address {
+      max-width: 260rem;
+      margin: 0 0 102rem;
+      font-weight: 300;
+      line-height: $lineHeightMedium;
+      @media (max-width: $xl) {
+        max-width: 160rem;
+        margin-bottom: 64rem;
+      }
+      @media (max-width: $lg) {
+        max-width: 178rem;
+        margin-bottom: 28rem;
+      }
+      @media (max-width: $md) {
+        max-width: 106rem;
+        margin-bottom: 17rem;
+        line-height: 1.25;
+      }
+      @media (max-width: $xs) {
+        max-width: 100%;
+        margin-bottom: 24rem;
+      }
+    }
+    &-copyright {
+      margin: 0 32rem 0 0;
+      font-weight: 300;
+      opacity: .5;
+      @media (max-width: $lg) {
+        margin-right: 17rem;
+      }
+      @media (max-width: $md) {
+        margin: 0 0 3rem;
+      }
+      @media (max-width: $xs) {
+        margin: 0 9rem 0 0;
+      }
+      &-wrapper {
+        display: flex;
+        align-items: center;
+        @media (max-width: $md) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        @media (max-width: $xs) {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+  &__nav {
+    font-weight: 300;
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    &-item {
+      margin: 0;
+      padding: 0;
+      &:not(:last-child) {
+        margin-bottom: 39rem;
+        @media (max-width: $xl) {
+          margin-bottom: 25rem;
+        }
+        @media (max-width: $lg) {
+          margin-bottom: 15rem;
+        }
+        @media (max-width: $md) {
+          margin-bottom: 16rem;
+        }
+      }
+    }
+  }
+  &__title {
+    margin: 0 0 35rem;
+    font-weight: 300;
+    @media (max-width: $xl) {
+      margin-bottom: 23rem;
+    }
+    @media (max-width: $lg) {
+      margin-bottom: 26rem;
+    }
+    @media (max-width: $md) {
+      margin-bottom: 29rem;
+    }
+  }
+  &__services {
+    margin: 0 0 43rem;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: $xl) {
+      margin-bottom: 27rem;
+    }
+    @media (max-width: $lg) {
+      margin-bottom: 0;
+    }
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 16rem;
+        @media (max-width: $xl) {
+          margin-bottom: 10rem;
+        }
+        @media (max-width: $lg) {
+          margin-bottom: 6rem;
+        }
+        @media (max-width: $md) {
+          margin-bottom: 8rem;
+        }
+      }
+    }
+  }
+  &__privacy {
+    margin: 0;
+    font-weight: 300;
+    a {
+      transition: $transition;
+      opacity: .5;
+      &:hover {
+        text-decoration: none;
+        @media (min-width: $lg-mf) {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

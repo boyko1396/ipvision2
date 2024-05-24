@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - Portfolio - HRArchive'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-black header--type-normal'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- intro-typical BEGIN -->
+          <section class="intro-typical">
+            <div class="container intro-typical__container">
+              <ul class="u-breadcrumbs u-breadcrumbs--theme-black intro-typical__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="/" itemprop="item">
+                    <span itemprop="name">Main</span>
+                  </a>
+                  <meta itemprop="position" content="1"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="https://example.com/" itemprop="item">
+                    <span itemprop="name">Portfolio</span>
+                  </a>
+                  <meta itemprop="position" content="2"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <span itemprop="name">HRArchive</span>
+                  <meta itemprop="position" content="3"/>
+                </li>
+              </ul>
+              <header class="intro-typical__header">
+                <div class="row intro-typical__header-row">
+                  <div class="row__col--10 intro-typical__header-col intro-typical__header-col--title">
+                    <h1 class="intro-typical__title">HRArchive</h1>
+                  </div>
+                  <div class="row__col--7 intro-typical__header-col intro-typical__header-col--content">
+                    <div class="content content--size-md intro-typical__text">
+                      <p>System of mass recruitment management, with the formation of an archive and issuance of recommendations by artificial intelligence</p>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <picture class="intro-typical__poster">
+                <source
+                  srcset="assets/images/portfolio-poster-6@2x.webp 2x,
+                          assets/images/portfolio-poster-6.webp"
+                          type="image/webp">
+                <source
+                  srcset="assets/images/portfolio-poster-6-sm@2x.webp 2x,
+                          assets/images/portfolio-poster-6-sm.webp"
+                          type="image/webp" media="(max-width: 639px)">
+                <source
+                  srcset="assets/images/portfolio-poster-6-sm@2x.jpg 2x,
+                          assets/images/portfolio-poster-6-sm.jpg"
+                          type="image/jpeg" media="(max-width: 639px)">
+                <img
+                  src="assets/images/portfolio-poster-6.jpg"
+                  srcset="assets/images/portfolio-poster-6@2x.jpg 2x"
+                  width="1600" height="420" alt="HRArchive">
+              </picture>
+            </div>
+          </section>
+          <!-- intro-typical END -->
+          <!-- case-section BEGIN -->
+          <section class="case-section">
+            <div class="container case-section__container">
+              <div class="row case-section__row">
+                <div class="row__col--10 case-section__col case-section__col--main">
+                  <div class="content content--size-md case-section__main">
+                    <h2>What is it?</h2>
+                    <p>HRArchive is a system that improves the quality of recruitment for small and medium-sized businesses.</p>
+                    <h3>Objectives:</h3>
+                    <ol>
+                      <li>Improving the quality of staff selection.</li>
+                      <li>Risk assessment when making decisions on the candidate's suitability for a vacancy.</li>
+                      <li>Providing human resources staff with tools for recruiting information.</li>
+                      <li>Providing employers with reliable information candidates.</li>
+                      <li>Prompt communication between the candidate and the employer.</li>
+                    </ol>
+                    <h3>Purpose of HRArchive</h3>
+                    <ul>
+                      <li>Optimize the employee search process.</li>
+                      <li>Processing and analyzing incoming information on candidates.</li>
+                      <li>Forming a conclusion on the candidate's compliance with the specified criteria.</li>
+                      <li>Processing candidate data from documents of various formats and obtaining candidate data from third-party online resources.</li>
+                      <li>Scheduling interviews and maintaining a calendar.</li>
+                      <li>Storing information on former and current employees for comparative analysis.</li>
+                      <li>Keeping a history - of interactions with the candidate, and company decisions on the candidate.</li>
+                    </ul>
+                    <img src="assets/images/content-img-5.jpg">
+                    <h3>Functionality</h3>
+                    <ul>
+                      <li>Company-wide database of candidates and job openings.</li>
+                      <li>Automatically check resume data for similarity with existing candidate data.</li>
+                      <li>Evaluating candidate fit with job requirements, by AI methods.</li>
+                      <li>Accounts with segregation by rights and roles.</li>
+                      <li>Calendar with notes on scheduled events.</li>
+                      <li>Global sourcing of data from the company's candidate and job database.</li>
+                    </ul>
+                    <h3>Interface</h3>
+                    <h4>THE HRARCHIVE SYSTEM CONSISTS OF PAGES:</h4>
+                    <ul>
+                      <li>Vacancies;</li>
+                      <li>Company vacancies;</li>
+                      <li>Candidates;</li>
+                      <li>Candidates for approval;</li>
+                      <li>Calendar;</li>
+                      <li>Settings;</li>
+                      <li>Global search.</li>
+                    </ul>
+                    <img src="assets/images/content-img-6.jpg">
+                    <h2>Vacancies</h2>
+                    <p>The Jobs page provides a table of job openings, as well as a list of candidates who have responded to the selected job.</p>
+                    <h4>USER CAN:</h4>
+                    <ul>
+                      <li>Add a new vacancy, it’s description. Add a new candidate  or an existing candidate to the vacancy;</li>
+                      <li>Delete an existing vacancy</li>
+                      <li>Set up a filter to search for candidates in the system</li>
+                      <li>Write a comment about a candidate or an event</li>
+                    </ul>
+                    <img src="assets/images/content-img-7.jpg">
+                    <h3>Сandidate communication</h3>
+                    <p><strong>This tab allows the user to write a message to the candidate</strong></p>
+                    <ul>
+                      <li>Schedule a telephone or in-person interview</li>
+                      <li>To invite to work or to refuse</li>
+                    </ul>
+                    <h3>Interview appointment</h3>
+                    <p><strong>This tab allows the user to schedule an interview with the candidate for a selected date and time</strong></p>
+                    <ul>
+                      <li>Reschedule the interview to another date or time</li>
+                    </ul>
+                    <div class="content__img-double">
+                      <picture>
+                        <img src="assets/images/content-img-8.jpg">
+                      </picture>
+                      <picture>
+                        <img src="assets/images/content-img-9.jpg">
+                      </picture>
+                    </div>
+                    <h2>Company vacancies</h2>
+                    <p><strong>The «Company vacancies» page contains the list of vacancies created by all employees, as well as the list of candidates who responded to the selected vacancy. </strong></p>
+                    <p>Otherwise, the page functionality is identical to that of the page «Job».</p>
+                    <h2>Candidates</h2>
+                    <p><strong>The «Candidates» page contains a list of candidates stored in the database</strong></p>
+                    <h4>ON THIS PAGE, THE USER CAN:</h4>
+                    <ul>
+                      <li>Open the candidate's resume;</li>
+                      <li>Leave a comment about a candidate or event;</li>
+                      <li>Edit the candidate's details;</li>
+                      <li>Download the candidate's resume;</li>
+                      <li>Bind the candidate to the vacancy.</li>
+                    </ul>
+                    <img src="assets/images/content-img-10.jpg">
+                    <h2>Candidates for approval</h2>
+                    <p><strong>The page «Candidates for approval» contains the list of candidates that have been sent for approval.</strong></p>
+                    <p>On this page allows you to invite the selected candidate for an interview, reject him or send the candidate to the “Think” status.</p>
+                    <img src="assets/images/content-img-11.jpg">
+                    <h2>Calendar</h2>
+                    <p>The «Calendar» page is used to display past and upcoming events.</p>
+                    <img src="assets/images/content-img-12.jpg">
+                    <h2>Settings</h2>
+                    <p>The «Settings» page allows you to change, if necessary, the profile data of the employee performing work on the current user.</p>
+                    <img src="assets/images/content-img-13.jpg">
+                    <h2>Global search</h2>
+                    <p>The «Global Search» page is designed to display search results for the entire system.</p>
+                    <img src="assets/images/content-img-14.jpg">
+                    <h2>Notifications and event feed</h2>
+                    <p><strong>This tab allows the user to familiarize themselves with new events:</strong></p>
+                    <ul>
+                      <li>New response</li>
+                      <li>Candidate for concurrence</li>
+                      <li>Scheduled or rescheduled interview</li>
+                    </ul>
+                    <img src="assets/images/content-img-15.jpg">
+                    <h2>Theme change</h2>
+                    <p>The system implements the ability to change from a light theme to a dark theme</p>
+                    <img src="assets/images/content-img-16.jpg">
+                  </div>
+                </div>
+              </div>
+              <footer class="case-section__footer">
+                <div class="row case-section__footer-action">
+                  <div class="row__col case-section__footer-action-item">
+                    <a href="#" class="btn btn--theme-accent-fill btn--size-md case-section__footer-action-btn">
+                      <span class="btn__inner">
+                        <span class="btn__title">Product presentation</span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="row__col case-section__footer-action-item">
+                    <a href="#" class="btn btn--theme-accent-fill btn--size-md case-section__footer-action-btn">
+                      <span class="btn__inner">
+                        <span class="btn__title">Instruction</span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="row__col case-section__footer-action-item">
+                    <a href="#" class="btn btn--theme-accent-fill btn--size-md case-section__footer-action-btn">
+                      <span class="btn__inner">
+                        <span class="btn__title">Try demo</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </section>
+          <!-- case-section END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>

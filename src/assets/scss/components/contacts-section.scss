@@ -1,0 +1,104 @@
+.contacts-section {
+  background: $blackColor;
+  padding: 88rem 0;
+  color: $whiteColor;
+  @media (max-width: $xl) {
+    padding: 56rem 0 52rem;
+  }
+  @media (max-width: $lg) {
+    padding: 45rem 0;
+  }
+  @media (max-width: $md) {
+    padding: 40rem 0;
+  }
+  &__container {
+  }
+  &__inner {
+    margin: 0 10% 0 30%;
+    @media (max-width: $md) {
+      margin-right: 0;
+    }
+    @media (max-width: $xs) {
+      margin: 0;
+    }
+  }
+  &__title {
+    margin: 0 0 64rem;
+    @media (max-width: $xl) {
+      margin-bottom: 39rem;
+    }
+    @media (max-width: $lg) {
+      margin-bottom: 31rem;
+    }
+    @media (max-width: $md) {
+      margin-bottom: 24rem;
+    }
+  }
+  &__form {
+    &-input {
+    }
+    &-textarea {
+    }
+    &-footer {
+      margin: 48rem 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: $xl) {
+        margin-top: 30rem;
+      }
+      @media (max-width: $lg) {
+        margin-top: 24rem;
+      }
+      @media (max-width: $md) {
+        margin-top: 16rem;
+      }
+      @media (max-width: $xs) {
+        margin-top: 24rem;
+        flex-wrap: wrap;
+      }
+    }
+    &-btn {
+      width: 50%;
+      flex-shrink: 0;
+      @media (max-width: $lg) {
+        width: auto;
+      }
+      @media (max-width: $xs) {
+        width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 8rem;
+      }
+    }
+    &-privacy {
+      max-width: 230rem;
+      color: $grayColor;
+      text-align: right;
+      @media (max-width: $xl) {
+        max-width: 150rem;
+      }
+      @media (max-width: $lg) {
+        max-width: 178rem;
+      }
+      @media (max-width: $md) {
+        max-width: 150rem;
+        font-size: var(--fs-8);
+      }
+      @media (max-width: $xs) {
+        max-width: 100%;
+        flex-basis: 100%;
+        text-align: center;
+      }
+      a {
+        box-shadow: inset 0 -1px 0 currentColor;
+        transition: $transition;
+        &:hover {
+          text-decoration: none;
+          @media (min-width: $lg-mf) {
+            color: $whiteColor;
+          }
+        }
+      }
+    }
+  }
+}

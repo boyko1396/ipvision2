@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - SaaS Solutions Delivery Direction'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-white header--type-absolute'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- layout-intro BEGIN -->
+          <section class="layout-intro layout-intro--theme-3">
+            <div class="container layout-intro__container">
+              <div class="layout-intro__inner">
+                <ul class="u-breadcrumbs u-breadcrumbs--theme-white layout-intro__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" itemprop="item">
+                      <span itemprop="name">Main</span>
+                    </a>
+                    <meta itemprop="position" content="1"/>
+                  </li>
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">SaaS Solutions Delivery Direction</span>
+                    <meta itemprop="position" content="2"/>
+                  </li>
+                </ul>
+                <div class="layout-intro__content">
+                  <div class="row layout-intro__row">
+                    <div class="row__col--10 layout-intro__col--hero">
+                      <picture class="layout-intro__picture">
+                        <source
+                          srcset="assets/images/services-intro-img-3@2x.webp 2x,
+                                  assets/images/services-intro-img-3.webp"
+                                  type="image/webp">
+                        <img
+                          src="assets/images/services-intro-img-3.png"
+                          srcset="assets/images/services-intro-img-3@2x.png 2x"
+                          width="1060" height="1048" alt="SaaS Solutions Delivery Direction">
+                      </picture>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--title">
+                      <h1 class="layout-intro__title">SaaS Solutions Delivery&nbsp;Direction</h1>
+                    </div>
+                    <div class="row__col--6 layout-intro__col--text">
+                      <div class="content content--size-md layout-intro__text">
+                        <p>We provid its own SaaS solutions in project management (IPMS - Integrated Project Management System) and human resources management (HRMS - Human Resource Management System). These solutions are designed to automate key business processes and enhance the efficiency of client companies' operations.</p>
+                      </div>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--action">
+                      <a href="#" class="btn btn--theme-whitelight-fill btn--size-sm layout-intro__btn">
+                        <span class="btn__inner">
+                          <span class="btn__title">Start a project</span>
+                          <svg class="u-icon btn__icon btn__icon--dir-rtl">
+                            <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- layout-intro END -->
+          <!-- key-tasks BEGIN -->
+          <section class="key-tasks">
+            <div class="container key-tasks__container">
+              <div class="key-tasks__solution">
+                <div class="row key-tasks__solution-row">
+                  <div class="row__col--3 key-tasks__solution-col key-tasks__solution-col--title">
+                    <h2 class="key-tasks__solution-title">Solution</h2>
+                  </div>
+                  <div class="row__col--7 key-tasks__solution-col key-tasks__solution-col--main">
+                    <div class="js-tab-nav-solution tab-nav key-tasks__solution-tab-nav">
+                      <ul class="tab-nav__list">
+                        <li class="tab-nav__item is-active">
+                          <a href="#solution-hrms" class="tab-nav__link">
+                            <span class="title-size-3 tab-nav__title">HRMS</span>
+                            <span class="link-circle link-circle--theme-gray link-circle--size-md tab-nav__icon">
+                              <svg class="u-icon link-circle__icon">
+                                <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                              </svg>
+                            </span>
+                          </a>
+                        </li>
+                        <li class="tab-nav__item">
+                          <a href="#solution-ipms" class="tab-nav__link">
+                            <span class="title-size-3 tab-nav__title">IPMS</span>
+                            <span class="link-circle link-circle--theme-gray link-circle--size-md tab-nav__icon">
+                              <svg class="u-icon link-circle__icon">
+                                <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                              </svg>
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="js-tab-content-solution tab-content">
+                      <div class="js-tab-content-solution-inner tab-content__inner">
+                        <div id="solution-hrms" class="tab-content__item is-show">
+                          <div class="key-tasks__solution-card">
+                            <h4 class="key-tasks__solution-card-title">HRMS is</h4>
+                            <div class="content content--size-md key-tasks__solution-card-text">
+                              <p>Developed with the aim of providing client companies with a powerful tool for automating and optimizing personnel management processes. The system focuses on simplifying HR department routines, enhancing personnel management efficiency, and improving the quality of internal communications.</p>
+                            </div>
+                            <div class="key-tasks__solution-card-row">
+                              <div class="key-tasks__solution-card-col">
+                                <h4 class="key-tasks__solution-card-title">Functions</h4>
+                                <div class="key-tasks__solution-card-list">
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.884 27.5h1.667v-10h-1.667v10Zm6.282 0h1.667v-15h-1.667v15Zm6.282 0h1.667v-5h-1.667v5Zm-16.09 5.833c-.767 0-1.407-.257-1.921-.77-.514-.515-.771-1.155-.771-1.922V9.359c0-.767.257-1.408.77-1.922.515-.514 1.155-.77 1.922-.77H30.64c.767 0 1.408.256 1.922.77s.77 1.155.77 1.922V30.64c0 .767-.256 1.407-.77 1.921s-1.154.771-1.922.771H9.358Zm0-1.666H30.64c.257 0 .492-.107.706-.321.213-.214.32-.449.32-.705V9.359c0-.257-.107-.492-.32-.705-.214-.214-.45-.32-.706-.32H9.358c-.256 0-.491.106-.705.32-.213.213-.32.448-.32.705V30.64c0 .256.107.491.32.705.214.214.449.32.705.32Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Analytics and Reporting</h6>
+                                        <div class="content key-card__text">
+                                          <p>Generating detailed reports on various aspects of hiring and talent acquisition</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.334 15.833c.703 0 1.295-.24 1.777-.723.482-.481.723-1.074.723-1.777 0-.703-.24-1.295-.723-1.777-.482-.482-1.074-.723-1.777-.723-.703 0-1.295.241-1.777.723s-.723 1.074-.723 1.777c0 .703.24 1.296.723 1.777.482.482 1.074.723 1.777.723Zm.032 6.667c.93 0 1.825-.173 2.688-.52a7.514 7.514 0 0 0 2.34-1.496 12.167 12.167 0 0 0-2.565-.994 9.939 9.939 0 0 0-2.463-.323c-.99 0-1.933.113-2.832.34-.898.226-1.641.552-2.229.977a7.096 7.096 0 0 0 2.325 1.497c.873.346 1.785.519 2.736.519Zm16.93 12.34-8.763-8.763c-1.225.995-2.487 1.76-3.787 2.291-1.3.533-2.771.799-4.412.799-3.487 0-6.442-1.212-8.865-3.635s-3.635-5.378-3.635-8.866c0-3.487 1.212-6.442 3.635-8.865s5.378-3.635 8.865-3.635 6.442 1.212 8.865 3.635 3.635 5.378 3.635 8.865c0 1.642-.266 3.117-.798 4.428s-1.296 2.579-2.292 3.803l8.731 8.731-1.18 1.212ZM18.333 27.5c2.991 0 5.545-1.058 7.66-3.173 2.116-2.116 3.173-4.67 3.173-7.66 0-2.992-1.057-5.545-3.173-7.66-2.115-2.116-4.669-3.174-7.66-3.174-2.992 0-5.545 1.058-7.66 3.173-2.116 2.116-3.173 4.67-3.173 7.66 0 2.992 1.057 5.545 3.173 7.66 2.115 2.116 4.668 3.174 7.66 3.174Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Personnel Management</h6>
+                                        <div class="content key-card__text">
+                                          <p>Automation of hiring and onboarding processes</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.026 32.949c-.745 0-1.38-.262-1.905-.787a2.595 2.595 0 0 1-.787-1.906V11.795h1.667v18.461c0 .3.096.545.288.738a.998.998 0 0 0 .737.288h25.641v1.667H6.027Zm5-5c-.745 0-1.38-.263-1.905-.787a2.595 2.595 0 0 1-.787-1.906V7.692c0-.745.262-1.38.787-1.905A2.595 2.595 0 0 1 11.026 5h8.27l3.333 3.333h11.346c.746 0 1.38.263 1.905.787.525.525.787 1.16.787 1.906v14.23c0 .746-.262 1.381-.787 1.906a2.596 2.596 0 0 1-1.905.787H11.026Zm0-1.667h22.949c.3 0 .545-.096.737-.288a.998.998 0 0 0 .289-.738v-14.23c0-.3-.096-.545-.289-.737a.998.998 0 0 0-.737-.289H21.959l-3.333-3.333h-7.6c-.299 0-.545.096-.737.288a.998.998 0 0 0-.288.737v17.564c0 .3.096.545.288.738a.998.998 0 0 0 .737.288Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Applicant</h6>
+                                        <div class="content key-card__text">
+                                          <p>Data Archiving, storage optimization, and accessibility</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                              <div class="key-tasks__solution-card-col">
+                                <h4 class="key-tasks__solution-card-title">Advantages</h4>
+                                <div class="key-tasks__solution-card-list">
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 35.833v-23.14c0-.768.257-1.408.77-1.922.515-.514 1.155-.771 1.922-.771h14.616c.767 0 1.407.257 1.921.77.514.515.771 1.155.771 1.922v23.141l-10-4.294-10 4.294Zm1.667-2.583 8.333-3.583 8.333 3.583V12.692c0-.256-.106-.491-.32-.705-.214-.213-.449-.32-.705-.32H10.192c-.256 0-.491.107-.705.32-.213.214-.32.449-.32.705V33.25Zm21.666-2.417V7.693c0-.257-.106-.492-.32-.706-.214-.213-.449-.32-.705-.32H12.5V5h17.308c.767 0 1.407.257 1.921.77.514.515.771 1.155.771 1.922v23.141h-1.667Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Resource Savings</h6>
+                                        <div class="content key-card__text">
+                                          <p>No need for significant initial investments in hardware and software</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.692 31.667c-.767 0-1.407-.257-1.921-.771S5 29.742 5 28.974V11.026c0-.767.257-1.408.77-1.922.515-.514 1.155-.77 1.922-.77h6.86V10h-6.86c-.256 0-.491.107-.705.32-.213.214-.32.45-.32.706v17.948c0 .257.107.492.32.706.214.213.449.32.705.32h24.616c.256 0 .491-.107.705-.32.214-.214.32-.45.32-.706V11.026c0-.257-.106-.492-.32-.705-.214-.214-.449-.32-.705-.32h-6.86V8.333h6.86c.767 0 1.407.256 1.921.77S35 10.26 35 11.026v17.948c0 .768-.257 1.408-.77 1.922-.515.514-1.155.77-1.922.77H7.692ZM20 24.833l-7.18-7.179 1.18-1.18 5.167 5.167V8.334h1.666V21.64L26 16.475l1.18 1.179-7.18 7.18Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Continuous Updates</h6>
+                                        <div class="content key-card__text">
+                                          <p>Automatic receipt of the latest feature updates without additional costs</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.167 27.5h6.666v-6.666h-1.666v5h-5V27.5Zm-15-8.333h1.666v-5h5V12.5H9.167v6.667Zm-1.475 12.5c-.767 0-1.407-.257-1.921-.771S5 29.742 5 28.974V11.026c0-.767.257-1.408.77-1.922.515-.514 1.155-.77 1.922-.77h24.616c.767 0 1.407.256 1.921.77S35 10.26 35 11.026v17.948c0 .768-.257 1.408-.77 1.922-.515.514-1.155.77-1.922.77H7.692Zm0-1.667h24.616c.256 0 .491-.107.705-.32.214-.214.32-.45.32-.706V11.026c0-.257-.106-.492-.32-.705-.214-.214-.449-.32-.705-.32H7.692c-.256 0-.491.106-.705.32-.213.213-.32.448-.32.705v17.948c0 .257.107.492.32.706.214.213.449.32.705.32Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Flexibility and Scalability</h6>
+                                        <div class="content key-card__text">
+                                          <p>Ability to easily adapt the system to current business needs and scale it&nbsp;according to company growth</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m18.25 24.763 8.264-8.263-1.19-1.189-7.073 7.074-3.564-3.564-1.19 1.189 4.754 4.753ZM20 34.936c-3.348-.993-6.13-3.022-8.344-6.085-2.215-3.063-3.322-6.513-3.322-10.35V9.486l11.667-4.359 11.666 4.36V18.5c0 3.838-1.107 7.288-3.322 10.351-2.214 3.063-4.996 5.092-8.344 6.085Zm0-1.77c2.89-.916 5.278-2.75 7.167-5.5 1.89-2.75 2.834-5.805 2.834-9.166v-7.875L20 6.907l-10 3.718V18.5c0 3.361.944 6.417 2.833 9.167 1.889 2.75 4.278 4.583 7.167 5.5Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">High Security Level</h6>
+                                        <div class="content key-card__text">
+                                          <p>Data protection using modern encryption technologies and information security</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="solution-ipms" class="tab-content__item">
+                          <div class="key-tasks__solution-card">
+                            <h4 class="key-tasks__solution-card-title">IPMS is</h4>
+                            <div class="content content--size-md key-tasks__solution-card-text">
+                              <p>Created to provide client companies with efficient project, resource, and time management. The solution aims to automate key project management processes, enhance transparency in project work, and optimize team communications.</p>
+                            </div>
+                            <div class="key-tasks__solution-card-row">
+                              <div class="key-tasks__solution-card-col">
+                                <h4 class="key-tasks__solution-card-title">Functions</h4>
+                                <div class="key-tasks__solution-card-list">
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.692 33.334c-.767 0-1.407-.257-1.921-.771S5 31.408 5 30.64V9.36c0-.767.257-1.407.77-1.921.515-.514 1.155-.771 1.922-.771h24.616c.767 0 1.407.257 1.921.77.514.515.771 1.155.771 1.922v21.282c0 .768-.257 1.408-.77 1.922-.515.514-1.155.77-1.922.77H7.692Zm0-1.667h24.616c.256 0 .491-.107.705-.32.214-.214.32-.45.32-.706V9.36c0-.256-.106-.491-.32-.705-.214-.214-.449-.32-.705-.32H7.692c-.256 0-.491.106-.705.32-.213.214-.32.449-.32.705v21.282c0 .257.107.492.32.706.214.213.449.32.705.32ZM9.167 27.5h6.666v-1.666H9.167V27.5Zm15.083-3.686 7.064-7.064-1.189-1.189-5.875 5.917-2.375-2.375-1.148 1.189 3.523 3.522Zm-15.083-2.98h6.666v-1.667H9.167v1.667Zm0-6.667h6.666V12.5H9.167v1.667Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Project Planning</h6>
+                                        <div class="content key-card__text">
+                                          <p>IPMS enables users to create detailed</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.33 19.102c1.156 0 2.14-.404 2.952-1.214.812-.81 1.218-1.792 1.218-2.948 0-1.157-.405-2.14-1.214-2.953-.81-.812-1.793-1.218-2.949-1.218s-2.14.405-2.952 1.214c-.812.81-1.218 1.793-1.218 2.95 0 1.155.404 2.14 1.214 2.952.81.812 1.792 1.217 2.948 1.217Zm-9.035 7.468a12.526 12.526 0 0 1 4.115-2.963 11.94 11.94 0 0 1 4.923-1.043c1.725 0 3.366.348 4.923 1.043a12.526 12.526 0 0 1 4.116 2.963.885.885 0 0 0 .689-.304c.181-.203.272-.443.272-.721V7.692c0-.299-.096-.545-.288-.737a.998.998 0 0 0-.737-.288H14.359c-.3 0-.545.096-.737.288a.998.998 0 0 0-.289.737v17.853c0 .278.091.518.273.721a.885.885 0 0 0 .689.305Zm.064 1.763c-.74 0-1.374-.263-1.902-.79a2.593 2.593 0 0 1-.79-1.902V7.692c0-.74.263-1.374.79-1.901A2.593 2.593 0 0 1 14.36 5h17.949c.74 0 1.374.264 1.901.79.527.528.791 1.162.791 1.902v17.949c0 .74-.264 1.374-.79 1.902a2.592 2.592 0 0 1-1.902.79H14.359ZM7.692 35c-.74 0-1.374-.264-1.901-.79A2.592 2.592 0 0 1 5 32.307V11.667h1.667v20.64c0 .3.096.546.288.738a.998.998 0 0 0 .737.288h20.641V35H7.693Zm15.641-17.564a2.406 2.406 0 0 1-1.764-.736 2.406 2.406 0 0 1-.736-1.764c0-.686.245-1.274.736-1.764a2.406 2.406 0 0 1 1.764-.736c.686 0 1.274.245 1.765.736.49.49.735 1.078.735 1.764 0 .686-.245 1.274-.735 1.764s-1.079.736-1.765.736Zm-6.718 9.23h13.436a9.602 9.602 0 0 0-3.121-1.826 10.704 10.704 0 0 0-3.597-.61c-1.25 0-2.448.204-3.596.61a9.6 9.6 0 0 0-3.122 1.827Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Resource Allocation</h6>
+                                        <div class="content key-card__text">
+                                          <p>The system provides tools for efficient resource allocation and workload management for employees</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 15.833v-4.808c0-.767.257-1.407.77-1.921.515-.514 1.155-.771 1.922-.771h24.616c.767 0 1.407.257 1.921.77.514.515.771 1.155.771 1.922v4.808h-1.667v-4.808c0-.256-.106-.491-.32-.705-.214-.213-.449-.32-.705-.32H7.692c-.256 0-.491.107-.705.32-.213.214-.32.449-.32.705v4.808H5Zm2.692 15.833c-.767 0-1.407-.257-1.921-.77C5.257 30.381 5 29.74 5 28.973v-4.808h1.667v4.808c0 .256.107.491.32.705.214.214.449.32.705.32h24.616c.256 0 .491-.106.705-.32.214-.213.32-.449.32-.705v-4.808H35v4.808c0 .767-.257 1.408-.77 1.921-.515.514-1.155.771-1.922.771H7.692Zm8.975-4.166a.89.89 0 0 0 .442-.117.773.773 0 0 0 .32-.351l5.904-11.808 2.57 5.141a.772.772 0 0 0 .321.351.89.89 0 0 0 .443.117H35v-1.667h-7.805l-3.099-6.198a.678.678 0 0 0-.304-.294 1.061 1.061 0 0 0-.459-.091c-.156 0-.303.03-.442.091a.664.664 0 0 0-.32.294l-5.904 11.807-2.57-5.14a.772.772 0 0 0-.321-.352.89.89 0 0 0-.443-.117H5v1.667h7.805l3.099 6.199a.772.772 0 0 0 .32.35.89.89 0 0 0 .443.118Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Progress Tracking</h6>
+                                        <div class="content key-card__text">
+                                          <p>Real-time tracking of task completion status and project progress</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.884 27.5h1.667v-10h-1.667v10Zm6.282 0h1.667v-15h-1.667v15Zm6.282 0h1.667v-5h-1.667v5Zm-16.09 5.834c-.767 0-1.407-.257-1.921-.771s-.771-1.155-.771-1.922V9.36c0-.767.257-1.407.77-1.921.515-.514 1.155-.771 1.922-.771H30.64c.767 0 1.408.257 1.922.77.514.515.77 1.155.77 1.922v21.282c0 .768-.256 1.408-.77 1.922s-1.154.77-1.922.77H9.358Zm0-1.667H30.64c.257 0 .492-.107.706-.32.213-.214.32-.45.32-.706V9.36c0-.256-.107-.491-.32-.705-.214-.214-.45-.32-.706-.32H9.358c-.256 0-.491.106-.705.32-.213.214-.32.449-.32.705v21.282c0 .257.107.492.32.706.214.213.449.32.705.32Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Analytics and Reporting</h6>
+                                        <div class="content key-card__text">
+                                          <p>Generating analytical reports to evaluate project work efficiency</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                              <div class="key-tasks__solution-card-col">
+                                <h4 class="key-tasks__solution-card-title">Minimization of Initial Costs</h4>
+                                <div class="key-tasks__solution-card-list">
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.335 35c-.337 0-.675-.067-1.015-.202a2.721 2.721 0 0 1-.92-.606L5.799 23.59a2.58 2.58 0 0 1-.607-.913 2.826 2.826 0 0 1 0-2.043c.127-.34.33-.647.607-.92L19.696 5.809c.247-.247.54-.443.878-.59A2.618 2.618 0 0 1 21.622 5h10.644c.767 0 1.413.267 1.938.8.524.534.786 1.175.786 1.924V18.37c0 .368-.067.72-.202 1.053a2.351 2.351 0 0 1-.596.863L20.253 34.192c-.269.27-.572.471-.909.606a2.7 2.7 0 0 1-1.009.202Zm-.745-1.987c.213.214.465.32.753.32s.54-.106.753-.32l13.94-13.917a.9.9 0 0 0 .224-.352 1.21 1.21 0 0 0 .064-.385V7.724a.97.97 0 0 0-.305-.737 1.053 1.053 0 0 0-.753-.288H21.215L6.987 20.904c-.213.213-.32.465-.32.753s.107.54.32.753L17.59 33.013Zm11.47-20.417c.473 0 .874-.162 1.204-.486.33-.324.496-.718.496-1.18 0-.472-.164-.873-.492-1.204a1.619 1.619 0 0 0-1.194-.495c-.468 0-.865.164-1.191.491a1.63 1.63 0 0 0-.489 1.194c0 .468.162.865.486 1.191.324.326.718.49 1.18.49Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Minimization of Initial Costs</h6>
+                                        <div class="content key-card__text">
+                                          <p>Clients can use the system without significant investments in infrastructure and&nbsp;licensing</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.167 27.5h6.666v-6.667h-1.666v5h-5V27.5Zm-15-8.334h1.666v-5h5V12.5H9.167v6.666Zm-1.475 12.5c-.767 0-1.407-.257-1.921-.77C5.257 30.381 5 29.74 5 28.973V11.025c0-.767.257-1.407.77-1.921.515-.514 1.155-.771 1.922-.771h24.616c.767 0 1.407.257 1.921.77.514.515.771 1.155.771 1.922v17.95c0 .766-.257 1.407-.77 1.92-.515.514-1.155.771-1.922.771H7.692Zm0-1.666h24.616c.256 0 .491-.107.705-.32.214-.215.32-.45.32-.706V11.025c0-.256-.106-.491-.32-.705-.214-.213-.449-.32-.705-.32H7.692c-.256 0-.491.107-.705.32-.213.214-.32.449-.32.705v17.95c0 .255.107.49.32.704.214.214.449.32.705.32Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Scalability</h6>
+                                        <div class="content key-card__text">
+                                          <p>Ability to easily scale the system according to current business needs</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.063 28.558c.37 0 .681-.127.935-.38a1.27 1.27 0 0 0 .38-.934c0-.37-.127-.681-.38-.934a1.27 1.27 0 0 0-.935-.38c-.37 0-.68.126-.934.38a1.27 1.27 0 0 0-.38.934c0 .37.127.681.38.934s.565.38.934.38Zm-.858-5.52h1.609c.042-.743.18-1.335.413-1.775.233-.44.678-.99 1.337-1.647.8-.802 1.381-1.497 1.741-2.085.36-.589.54-1.257.54-2.005 0-1.301-.446-2.35-1.34-3.146-.892-.796-1.983-1.194-3.272-1.194-1.186 0-2.206.316-3.062.949-.856.632-1.481 1.391-1.877 2.276l1.532.634c.28-.664.68-1.215 1.199-1.652.52-.437 1.221-.655 2.106-.655 1.049 0 1.829.286 2.34.86.51.574.765 1.226.765 1.957 0 .558-.152 1.068-.458 1.532-.305.463-.734.95-1.285 1.461-.895.827-1.5 1.572-1.816 2.233-.315.661-.473 1.414-.473 2.258ZM9.357 33.335c-.767 0-1.407-.257-1.921-.771s-.771-1.155-.771-1.922V9.36c0-.767.257-1.407.77-1.921.515-.514 1.155-.771 1.922-.771H30.64c.767 0 1.408.257 1.922.77.514.515.77 1.155.77 1.922v21.282c0 .768-.256 1.408-.77 1.922s-1.154.77-1.922.77H9.358Zm0-1.667H30.64c.257 0 .492-.107.706-.32.213-.214.32-.45.32-.706V9.36c0-.256-.107-.491-.32-.705-.214-.214-.45-.32-.706-.32H9.358c-.256 0-.491.106-.705.32-.213.214-.32.449-.32.705v21.282c0 .257.107.492.32.706.214.213.449.32.705.32Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Updates and Support</h6>
+                                        <div class="content key-card__text">
+                                          <p>Clients automatically receive the latest updates and have access to 24/7 support</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <article class="key-card key-tasks__solution-card-list-item">
+                                    <div class="key-card__row">
+                                      <div class="key-card__media">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m18.25 24.763 8.264-8.263-1.19-1.19-7.073 7.074-3.564-3.564-1.19 1.19 4.754 4.753ZM20 34.936c-3.348-.994-6.13-3.022-8.344-6.085-2.215-3.063-3.322-6.514-3.322-10.351V9.487l11.667-4.36 11.666 4.36V18.5c0 3.837-1.107 7.288-3.322 10.35-2.214 3.064-4.996 5.092-8.344 6.086Zm0-1.77c2.89-.916 5.278-2.75 7.167-5.5 1.89-2.75 2.834-5.805 2.834-9.166v-7.875L20 6.907l-10 3.718V18.5c0 3.36.944 6.416 2.833 9.166 1.889 2.75 4.278 4.584 7.167 5.5Z" fill="#A39F9F"/></svg>
+                                      </div>
+                                      <div class="key-card__content">
+                                        <h6 class="title-size-6 key-card__title">Data Security</h6>
+                                        <div class="content key-card__text">
+                                          <p>IPVision Lab ensures a high level of data security through the use of modern encryption and information protection technologies</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="row__col--7 key-tasks__importance">
+                  <div class="importance-block">
+                    <h2 class="importance-block__title">The Importance</h2>
+                    <div class="content content--size-md importance-block__text">
+                      <p>The delivery of SaaS solutions is an important direction for IPVision Lab as it allows the company to offer ready-to-use, scalable, and secure software products to the market. These solutions can be easily integrated into clients' existing IT infrastructure without the need for significant initial investments in development and maintenance.</p>
+                      <p>Implementing SaaS solutions enables IPVision Lab clients to significantly improve operational efficiency, reduce IT expenses, and gain a competitive advantage in the market. The company provides a full range of services for supporting and updating its products, ensuring clients' peace of mind and confidence in the reliability of the chosen solutions.</p>
+                      <div class="content-appeal">
+                        <p>We actively monitors the latest trends in software development and strives to implement innovative technologies in its products to offer clients the most advanced solutions for business management.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- key-tasks END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>

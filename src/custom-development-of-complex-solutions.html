@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - Custom Development of Complex Solutions'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-white header--type-absolute'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- layout-intro BEGIN -->
+          <section class="layout-intro layout-intro--theme-2">
+            <div class="container layout-intro__container">
+              <div class="layout-intro__inner">
+                <ul class="u-breadcrumbs u-breadcrumbs--theme-white layout-intro__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" itemprop="item">
+                      <span itemprop="name">Main</span>
+                    </a>
+                    <meta itemprop="position" content="1"/>
+                  </li>
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Custom Development of Complex Solutions</span>
+                    <meta itemprop="position" content="2"/>
+                  </li>
+                </ul>
+                <div class="layout-intro__content">
+                  <div class="row layout-intro__row">
+                    <div class="row__col--10 layout-intro__col--hero">
+                      <picture class="layout-intro__picture">
+                        <source
+                          srcset="assets/images/services-intro-img-2@2x.webp 2x,
+                                  assets/images/services-intro-img-2.webp"
+                                  type="image/webp">
+                        <img
+                          src="assets/images/services-intro-img-2.png"
+                          srcset="assets/images/services-intro-img-2@2x.png 2x"
+                          width="1060" height="1048" alt="Custom Development of Complex Solutions">
+                      </picture>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--title">
+                      <h1 class="layout-intro__title">Custom Development of&nbsp;Complex Solutions</h1>
+                    </div>
+                    <div class="row__col--6 layout-intro__col--text">
+                      <div class="content content--size-md layout-intro__text">
+                        <p>We specialize in custom software development, focusing on creating unique, high-tech products tailored to specific client needs and expectations.</p>
+                      </div>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--action">
+                      <a href="#" class="btn btn--theme-whitelight-fill btn--size-sm layout-intro__btn">
+                        <span class="btn__inner">
+                          <span class="btn__title">Start a project</span>
+                          <svg class="u-icon btn__icon btn__icon--dir-rtl">
+                            <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- layout-intro END -->
+          <!-- key-tasks BEGIN -->
+          <section class="key-tasks">
+            <div class="container key-tasks__container">
+              <h2 class="key-tasks__title">Key tasks</h2>
+              <div class="key-tasks__list key-tasks__list--theme-2">
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M48.103 22.333V19h23.333v3.333H48.103Zm0 12.564v-3.333h23.333v3.333H48.103Zm0 12.565v-3.334h23.333v3.334H48.103Zm-21.652-2.18c-2.061 0-3.819-.721-5.271-2.164C19.727 41.675 19 39.923 19 37.86c0-2.061.721-3.818 2.164-5.271 1.443-1.453 3.195-2.18 5.257-2.18 2.061 0 3.818.722 5.271 2.165 1.453 1.442 2.18 3.195 2.18 5.256 0 2.061-.722 3.819-2.165 5.272-1.442 1.453-3.195 2.179-5.256 2.179ZM9 62.718v-3.77c0-.725.182-1.416.545-2.072a4.364 4.364 0 0 1 1.468-1.581 31.883 31.883 0 0 1 7.33-3.055c2.559-.707 5.256-1.06 8.093-1.06 2.837 0 5.534.353 8.092 1.06a31.883 31.883 0 0 1 7.331 3.055 4.365 4.365 0 0 1 1.468 1.58 4.22 4.22 0 0 1 .545 2.074v3.769H9Zm3.449-4.359v1.026h27.974v-1.026c-2.2-1.24-4.48-2.19-6.84-2.853a26.322 26.322 0 0 0-7.147-.993c-2.406 0-4.788.331-7.148.993a30.967 30.967 0 0 0-6.84 2.853Zm13.987-16.41c1.115 0 2.078-.405 2.888-1.215s1.214-1.773 1.214-2.888-.404-2.078-1.214-2.888c-.81-.81-1.773-1.214-2.888-1.214s-2.078.404-2.888 1.214c-.81.81-1.215 1.773-1.215 2.888 0 1.116.405 2.078 1.215 2.888s1.773 1.215 2.888 1.215Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Understanding client needs</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>The first and key stage is a deep analysis and understanding of the unique needs of each client. This includes studying business processes, goals, and problems that need to be addressed with a new software solution.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M39.833 66.282c-1.23 0-2.29-.358-3.18-1.074-.888-.715-1.41-1.635-1.563-2.76h-1.923c-.894 0-1.672-.331-2.337-.996-.664-.664-.997-1.443-.997-2.337V49.077c-3.448-1.91-6.116-4.515-8.003-7.814-1.887-3.3-2.83-6.776-2.83-10.43 0-5.824 2.016-10.753 6.048-14.785S34.008 10 39.833 10c5.825 0 10.754 2.016 14.786 6.048s6.048 8.96 6.048 14.785c0 3.68-.944 7.163-2.83 10.45-1.887 3.285-4.555 5.884-8.004 7.794v10.038c0 .894-.332 1.672-.996 2.337-.665.665-1.444.997-2.337.997h-1.923c-.154 1.124-.675 2.044-1.564 2.76-.89.715-1.949 1.073-3.18 1.073Zm-6.666-7.167H46.5V55.86H33.167v3.256Zm0-5.82H46.5V50H33.167v3.295Zm-.667-6.628h5.859v-10.41l-6.949-6.95 2.09-2.09 6.333 6.334 6.334-6.333 2.09 2.09-6.95 6.948v10.41h5.86c3-1.444 5.444-3.569 7.333-6.374 1.889-2.806 2.833-5.959 2.833-9.459 0-4.889-1.694-9.027-5.083-12.416-3.389-3.39-7.528-5.084-12.417-5.084s-9.027 1.695-12.416 5.084c-3.39 3.389-5.084 7.527-5.084 12.416 0 3.5.945 6.653 2.834 9.459 1.889 2.805 4.333 4.93 7.333 6.375Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Development of individual solution</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Based on the gathered information, the IPVision Lab team of specialists develops a unique technical solution. This may involve creating new features, integrating with existing systems, or developing entirely new software products.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 54.615v-29.23c0-1.481.552-2.749 1.657-3.803C15.762 20.527 17.09 20 18.641 20h42.051c1.552 0 2.88.527 3.984 1.582 1.105 1.054 1.657 2.322 1.657 3.803v29.23c0 1.481-.552 2.749-1.657 3.803C63.572 59.473 62.244 60 60.692 60H18.641c-1.551 0-2.88-.527-3.984-1.582C13.552 57.364 13 56.096 13 54.615Zm19.801-16.282H63V25.385c0-.513-.235-.983-.705-1.41-.47-.428-1.004-.642-1.603-.642h-27.89v15Zm16.744 18.334h11.147c.599 0 1.133-.214 1.603-.641.47-.428.705-.898.705-1.41v-12.95H49.545v15Zm-16.744 0h13.41v-15h-13.41v15Zm-14.16 0h10.827V23.333H18.64c-.598 0-1.132.214-1.603.641-.47.428-.705.898-.705 1.41v29.231c0 .513.235.983.705 1.41.47.428 1.005.642 1.603.642Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Architecture<br>and design planning</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>The team is involved in designing an efficient system architecture and creating an intuitive interface design, ensuring high performance and ease of use of the developed solution.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.385 66.667c-1.492 0-2.762-.525-3.811-1.574-1.05-1.05-1.574-2.32-1.574-3.81v-37.95c0-.393.04-.755.119-1.086a2.03 2.03 0 0 1 .484-.9l4.538-5.411c.244-.312.525-.546.843-.702A2.394 2.394 0 0 1 20.051 15h39.231c.393 0 .749.078 1.067.234.319.156.6.39.843.702l4.539 5.41c.243.27.405.57.484.9.079.332.118.694.118 1.087v37.95c0 1.49-.524 2.76-1.573 3.81-1.05 1.05-2.32 1.574-3.811 1.574H18.385Zm-.718-45h44l-2.834-3.334H20.5l-2.833 3.334Zm.718 41.666h42.564c.598 0 1.09-.192 1.474-.577.385-.384.577-.876.577-1.474V25H16.333v36.282c0 .598.193 1.09.577 1.474.385.385.876.577 1.475.577Zm29.782-8.936L57.564 45l-9.397-9.397L45.769 38l7 7-7 7 2.398 2.397Zm-16.834 0L33.731 52l-7-7 7-7-2.398-2.397L21.936 45l9.397 9.397Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Development and testing</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>The next stage involves direct development of the software solution and its thorough testing. This includes both automated and manual testing to ensure stability, security, and compliance with all requirements.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43 67.564 42.808 60H38c-6.949 0-12.853-2.43-17.712-7.288C15.43 47.852 13 41.949 13 35s2.43-12.853 7.288-17.712C25.148 12.43 31.051 10 38 10c3.474 0 6.728.65 9.76 1.952 3.032 1.301 5.68 3.083 7.942 5.346 2.263 2.263 4.045 4.91 5.346 7.942C62.35 28.272 63 31.526 63 35c0 3.397-.499 6.66-1.497 9.788a38.301 38.301 0 0 1-4.14 8.872 40.675 40.675 0 0 1-6.334 7.699A48.824 48.824 0 0 1 43 67.564Zm3.333-6.397c3.945-3.334 7.153-7.236 9.625-11.709 2.473-4.472 3.709-9.291 3.709-14.458 0-6.056-2.098-11.18-6.292-15.375-4.194-4.194-9.32-6.292-15.375-6.292-6.056 0-11.18 2.098-15.375 6.292-4.194 4.194-6.292 9.32-6.292 15.375 0 6.056 2.098 11.18 6.292 15.375 4.194 4.194 9.32 6.292 15.375 6.292h8.333v4.5Zm-8.224-9.263c.688 0 1.27-.237 1.744-.712.474-.474.711-1.055.711-1.743 0-.688-.237-1.27-.711-1.744-.475-.474-1.056-.711-1.744-.711s-1.27.237-1.744.711-.711 1.056-.711 1.744.237 1.269.711 1.743c.475.475 1.056.712 1.744.712Zm-1.455-9.75h2.949c.085-1.368.348-2.449.788-3.244.44-.795 1.485-2.017 3.135-3.666.957-.958 1.715-1.934 2.275-2.93.56-.996.84-2.139.84-3.43 0-2.405-.83-4.295-2.49-5.67-1.66-1.373-3.668-2.06-6.023-2.06-2.06 0-3.805.563-5.237 1.689-1.432 1.126-2.48 2.469-3.147 4.029l2.743 1.064c.449-.987 1.105-1.886 1.968-2.696.863-.81 2.088-1.214 3.673-1.214 1.885 0 3.277.512 4.176 1.538.9 1.026 1.35 2.145 1.35 3.36 0 1.114-.289 2.058-.866 2.83-.576.77-1.318 1.61-2.224 2.515-1.602 1.41-2.655 2.677-3.157 3.798-.502 1.122-.753 2.484-.753 4.087Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Implementation and support</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>After successful product testing, it is implemented into the client's business processes. The company also provides services for technical support and software updates.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="row">
+                <div class="row__col--7 key-tasks__importance">
+                  <div class="importance-block">
+                    <h2 class="importance-block__title">The Importance</h2>
+                    <div class="content content--size-md importance-block__text">
+                      <p>Custom development of complex solutions is a key direction for IPVision Lab, allowing the company to offer clients not just software products but comprehensive solutions tailored to their unique business tasks. This direction contributes to increasing the competitiveness of clients through business process automation, optimization of staff work, and reduction of operational costs.</p>
+                      <div class="content-appeal">
+                        <p>Thanks to a deep understanding of technologies and a focus on innovation, the company is able to offer its clients cutting-edge solutions that help achieve business goals and ensure long-term success in the market.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- key-tasks END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>

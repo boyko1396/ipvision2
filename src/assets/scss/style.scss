@@ -1,0 +1,37 @@
+@use 'sass:math';
+
+/** Local font inclusion from the "./src/fonts" folder */
+@import 'config/fonts';
+
+/** Variable inclusion */
+@import 'config/vars';
+
+/** Inclusion of sass functions, mixins, and style extends */
+@import 'config/functions';
+@import 'config/mixins';
+@import 'config/patternSelectors';
+
+/** Reset */
+@import 'config/default';
+
+/** Libraries */
+
+/** Common parameters, templates, and utility classes */
+@import 'config/media';
+@import 'config/base';
+
+/** Common BEM blocks used throughout the project */
+@import 'config/common';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/hero-section';
+@import 'components/mission-section';
+@import 'components/values-section';
+@import 'components/contacts-section';
+@import 'components/layout-intro';
+@import 'components/key-tasks';
+@import 'components/team-section';
+@import 'components/intro-typical';
+@import 'components/case-section';
+
+/** Inclusion of styles for individual blocks and sections */

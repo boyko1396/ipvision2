@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="assets/css/style.min.css??=v=20240524190722">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/static/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/static/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#3B5EEF">
+    <title>IPVISION - Analytics and Technical Requirements Development</title>
+  </head>
+  <body>
+    <div id="root" class="site">
+      <div class="site__inner">
+        <header class="header header--theme-white header--type-absolute site__header">
+          <div class="container header__container">
+            <div class="header__inner">
+              <a href="/" class="header__logo">
+                <svg width="240" height="32" viewBox="0 0 240 32" class="header__logo-img" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M45.499 1.425h3.487l9.271 29.004h.978L68.55 1.425h3.445L62.34 31.407h-7.145L45.499 1.425Zm47.522 2.977h-6.677v24.029h6.677v2.976H76.138v-2.976h6.719V4.402h-6.72V1.425h16.884v2.977Zm27.915 19.436c0 5.33-3.841 7.995-11.525 7.995-4.961 0-8.462-.992-10.504-2.977-2.041-2.013-3.062-4.905-3.062-8.676h3.487c0 3.346.822 5.628 2.467 6.847 1.645 1.22 4.182 1.829 7.612 1.829 2.666 0 4.664-.369 5.997-1.106 1.361-.765 2.041-2.013 2.041-3.742 0-.482-.056-.936-.17-1.361a2.941 2.941 0 0 0-.595-1.191c-.255-.34-.511-.652-.766-.936-.255-.283-.623-.552-1.105-.808-.409-.217-.82-.43-1.234-.638-.34-.17-.836-.354-1.488-.553a13.57 13.57 0 0 0-1.489-.467c-.368-.114-.907-.27-1.616-.468-.528-.144-1.052-.3-1.573-.468-1.758-.539-3.147-1.006-4.168-1.403a18.819 18.819 0 0 1-3.105-1.574c-1.02-.68-1.772-1.488-2.254-2.424-.453-.936-.68-2.041-.68-3.317 0-4.933 3.544-7.4 10.632-7.4 2.126 0 3.984.298 5.571.893 1.588.595 2.821 1.403 3.7 2.424.879 1.02 1.531 2.112 1.956 3.275.429 1.186.645 2.439.638 3.7h-3.487c0-2.438-.78-4.267-2.339-5.486-1.559-1.22-3.572-1.829-6.039-1.829-4.763 0-7.145 1.446-7.145 4.338 0 1.474.567 2.608 1.702 3.402 1.162.766 3.118 1.574 5.868 2.424.284.085.695.213 1.234.383 1.049.312 1.842.567 2.381.765.567.17 1.319.44 2.254.808.964.34 1.701.667 2.212.979a19.34 19.34 0 0 1 1.786 1.19c.68.482 1.19.979 1.531 1.489.34.51.638 1.12.893 1.829.255.68.382 1.431.382 2.254Zm19.763-19.436h-6.677v24.029h6.677v2.976h-16.884v-2.976h6.72V4.402h-6.72V1.425h16.884v2.977Zm2.055 11.993c0-4.48 1.261-8.165 3.785-11.057C149.062 2.446 152.478 1 156.788 1c4.281 0 7.669 1.446 10.164 4.338 2.524 2.892 3.785 6.577 3.785 11.057 0 4.508-1.261 8.208-3.785 11.1-2.495 2.892-5.883 4.338-10.164 4.338-4.31 0-7.726-1.446-10.249-4.338-2.524-2.892-3.785-6.592-3.785-11.1Zm3.487 0c0 3.743.893 6.762 2.679 9.059 1.815 2.268 4.437 3.402 7.868 3.402 3.402 0 5.996-1.134 7.782-3.402 1.787-2.297 2.68-5.316 2.68-9.059 0-3.714-.893-6.705-2.68-8.973-1.786-2.297-4.38-3.445-7.782-3.445-3.431 0-6.053 1.148-7.868 3.445-1.786 2.268-2.679 5.259-2.679 8.973Zm29.457 15.012V1.425h7.017l14.97 29.004h.978l-.553-2.509V1.425h3.445v29.982h-7.017L179.611 2.403h-.979l.553 2.51v26.494h-3.487Z" fill="#fff" class="logo-title"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22.323 28.43h3.487v2.977-10.334h4.933c4.111 0 7.202-.709 9.272-2.126 2.07-1.446 3.104-4.026 3.104-7.74 0-3.686-1.035-6.238-3.104-7.655-2.07-1.418-5.16-2.127-9.272-2.127h-8.42 3.487v2.977h-3.487V28.43Zm12.035-10.589c-.964.17-2.155.255-3.572.255H25.81V4.402h4.976c2.92 0 5.117.468 6.591 1.404 1.503.907 2.255 2.707 2.255 5.4 0 1.447-.213 2.638-.638 3.573-.425.936-1.063 1.645-1.914 2.127-.852.454-1.77.77-2.722.935Z" fill="#fff" class="logo-title"/>
+                  <path d="M10.342 4.402H25.81V1.425H.135v2.977h6.72v24.029H.134v2.976H25.81v-2.976H10.342V4.402Z" fill="#fff" class="logo-title"/>
+                  <path d="M207.681 15.116c-.374.013-.664-.083-.87-.29-.206-.206-.309-.495-.309-.87V1.303h1.584v12.462l6.859-.194v1.353l-7.264.192Zm19.011-.193-1.72-5.333h-5.468l-1.7 5.333h-1.584l4.405-13.621h3.246l4.386 13.621h-1.565Zm-6.744-6.685h4.599l-2.087-6.492h-.444l-2.068 6.492Zm10.196 6.685V1.302h3.613c1.79 0 3.111.238 3.961.714.85.477 1.275 1.353 1.275 2.628 0 .915-.258 1.61-.773 2.087-.515.476-1.166.74-1.952.792v.464c2.487.051 3.73 1.159 3.73 3.323 0 1.314-.458 2.248-1.372 2.801-.915.541-2.248.812-4 .812h-4.482Zm1.584-7.767h2.087c1.237 0 2.144-.148 2.724-.445.58-.309.87-.914.87-1.816 0-.412-.058-.76-.174-1.043-.116-.283-.264-.502-.445-.657-.167-.155-.425-.27-.773-.348a4.423 4.423 0 0 0-.965-.154 15.5 15.5 0 0 0-1.237-.039h-2.087v4.502Zm0 6.414h2.956c1.275 0 2.216-.167 2.821-.502.605-.348.908-1.024.908-2.029 0-.94-.309-1.597-.927-1.97-.618-.374-1.552-.56-2.802-.56h-2.956v5.061Z" fill="#252525" class="logo-subtitle"/>
+                </svg>
+              </a>
+              <div class="header__aside">
+                <div class="header__country">
+                  <svg class="u-icon d-xs-block header__country-icon">
+                    <use xlink:href="assets/images/icons/icons.svg#location"></use>
+                  </svg>
+                  <div class="header__country-title">Cyprus</div>
+                </div>
+                <p class="header__address d-xs-none">Nikou Georgiou, 6 BLOCK C, 3rd&nbsp;floor, Flat/Office 304 1095</p>
+                <button type="button" class="header__toggle js-header-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                </button>
+              </div>
+            </div>
+            <div class="header__dropdown js-equal-height">
+              <div class="container header__dropdown-container">
+                <div class="header__dropdown-bottom">
+                  <nav class="header__services" role="navigation">
+                    <ul class="header__services-list">
+                      <li class="header__services-item">
+                        <a href="#" class="services-link header__services-link services-link--size-md services-link--theme-gray">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-1"></use>
+                            </svg>
+                            <span class="services-link__title">Analytics and technical requirements development</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="header__services-item">
+                        <a href="#" class="services-link header__services-link services-link--size-md services-link--theme-gray">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-1"></use>
+                            </svg>
+                            <span class="services-link__title">Custom development of&nbsp;complex solutions</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="header__services-item">
+                        <a href="#" class="services-link header__services-link services-link--size-md services-link--theme-gray">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-1"></use>
+                            </svg>
+                            <span class="services-link__title">SaaS solutions delivery</span>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="d-xs-block header__dropdown-contacts">
+                    <a href="mailto:office@ipvision-lab.dev" class="header__dropdown-contacts-email">office@ipvision-lab.dev</a>
+                    <p class="d-xs-block header__address">Nikou Georgiou, 6 BLOCK C, 3rd&nbsp;floor, Flat/Office 304 1095</p>
+                  </div>
+                </div>
+                <nav class="header__nav" role="navigation">
+                  <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">Portfolio</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">Contacts</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">Blog</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main role="main" class="site__main">
+          <section class="layout-intro layout-intro--theme-1">
+            <div class="container layout-intro__container">
+              <div class="layout-intro__inner">
+                <ul class="layout-intro__breadcrumbs u-breadcrumbs u-breadcrumbs--theme-white" itemscope itemtype="https://schema.org/BreadcrumbList">
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" itemprop="item">
+                    <span itemprop="name">Main</span>
+                    </a>
+                    <meta itemprop="position" content="1">
+                  </li>
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Analytics and Technical Requirements Development</span>
+                    <meta itemprop="position" content="2">
+                  </li>
+                </ul>
+                <div class="layout-intro__content">
+                  <div class="row layout-intro__row">
+                    <div class="layout-intro__col--hero row__col--10">
+                      <picture class="layout-intro__picture">
+                        <source srcset="assets/images/services-intro-img-1@2x.webp 2x, assets/images/services-intro-img-1.webp" type="image/webp">
+                        <img src="assets/images/services-intro-img-1.png" srcset="assets/images/services-intro-img-1@2x.png 2x" width="1060" height="1048" alt="Analytics and Technical Requirements Development">
+                      </picture>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--title">
+                      <h1 class="layout-intro__title">Analytics and Technical Requirements Development</h1>
+                    </div>
+                    <div class="layout-intro__col--text row__col--6">
+                      <div class="content content--size-md layout-intro__text">
+                        <p>The analytics and technical direction is crucial for creating innovative products, involving studying client needs, analyzing data, and formulating project requirements.</p>
+                      </div>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--action">
+                      <a href="#" class="btn btn--size-sm btn--theme-whitelight-fill layout-intro__btn">
+                        <span class="btn__inner">
+                          <span class="btn__title">Start a project</span>
+                          <svg class="u-icon btn__icon btn__icon--dir-rtl">
+                            <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="key-tasks">
+            <div class="container key-tasks__container">
+              <h2 class="key-tasks__title">Key tasks</h2>
+              <div class="key-tasks__list key-tasks__list--theme-1">
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.3333 37.0001C33.5833 37.0001 31.2292 36.0209 29.2708 34.0626C27.3125 32.1043 26.3333 29.7501 26.3333 27.0001C26.3333 24.25 27.3125 21.8958 29.2708 19.9375C31.2292 17.9792 33.5833 17 36.3333 17C39.0833 17 41.4375 17.9792 43.3958 19.9375C45.3542 21.8958 46.3333 24.25 46.3333 27.0001C46.3333 29.7501 45.3542 32.1043 43.3958 34.0626C41.4375 36.0209 39.0833 37.0001 36.3333 37.0001ZM36.3333 33.6668C38.1667 33.6668 39.7361 33.014 41.0417 31.7084C42.3472 30.4029 43 28.8334 43 27.0001C43 25.1668 42.3472 23.5973 41.0417 22.2918C39.7361 20.9862 38.1667 20.3334 36.3333 20.3334C34.5 20.3334 32.9306 20.9862 31.625 22.2918C30.3194 23.5973 29.6667 25.1668 29.6667 27.0001C29.6667 28.8334 30.3194 30.4029 31.625 31.7084C32.9306 33.014 34.5 33.6668 36.3333 33.6668ZM70.3847 72.1282L61.5128 63.2565C60.4316 64.0086 59.3098 64.5642 58.1474 64.9232C56.985 65.2821 55.8292 65.4616 54.6798 65.4616C51.4873 65.4616 48.7852 64.3508 46.5737 62.1293C44.3622 59.9076 43.2564 57.21 43.2564 54.0363C43.2564 50.8625 44.3672 48.1699 46.5888 45.9583C48.8104 43.7468 51.508 42.6411 54.6818 42.6411C57.8555 42.6411 60.5481 43.7504 62.7597 45.9691C64.9712 48.1878 66.0769 50.8818 66.0769 54.0513C66.0769 55.2094 65.8974 56.3697 65.5385 57.5321C65.1795 58.6945 64.6239 59.8163 63.8718 60.8975L72.7436 69.7693L70.3847 72.1282ZM54.6667 62.1283C56.9573 62.1283 58.8761 61.3547 60.4231 59.8077C61.9701 58.2607 62.7436 56.3419 62.7436 54.0513C62.7436 51.7607 61.9701 49.8419 60.4231 48.2949C58.8761 46.7479 56.9573 45.9744 54.6667 45.9744C52.3761 45.9744 50.4572 46.7479 48.9102 48.2949C47.3632 49.8419 46.5898 51.7607 46.5898 54.0513C46.5898 56.3419 47.3632 58.2607 48.9102 59.8077C50.4572 61.3547 52.3761 62.1283 54.6667 62.1283ZM13 61.1027V55.6347C13 54.2159 13.3974 52.9253 14.1923 51.7628C14.9871 50.6004 16.0684 49.6667 17.4359 48.9616C19.8419 47.7735 22.9615 46.6581 26.7948 45.6154C30.6282 44.5727 34.7756 44.2223 39.2372 44.5642C38.9124 45.1368 38.6212 45.6866 38.3636 46.2137C38.106 46.7407 37.9015 47.287 37.75 47.8526C33.7756 47.6603 30.0983 48.0588 26.7179 49.0482C23.3376 50.0374 20.7799 50.9829 19.0448 51.8847C18.1902 52.2907 17.5246 52.8252 17.0481 53.4883C16.5716 54.1514 16.3333 54.8669 16.3333 55.6347V57.7693H36.9808C37.0876 58.3078 37.2382 58.8655 37.4327 59.4424C37.6271 60.0193 37.844 60.5727 38.0833 61.1027H13Z" fill="white"/>
+                          </svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Researching client and&nbsp;market&nbsp;needs</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Analysts conduct in-depth analysis of client needs and market trends to identify opportunities for developing new products or improving existing&nbsp;ones.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.667 70c-1.88 0-3.462-.641-4.744-1.923C13.641 66.795 13 65.214 13 63.333v-9.23h10V10h43.333v53.333c0 1.88-.64 3.462-1.923 4.744C63.128 69.359 61.547 70 59.667 70h-40Zm40-3.333c.944 0 1.736-.32 2.375-.959s.958-1.43.958-2.375v-50H26.333v40.77h30v9.23c0 .945.32 1.736.959 2.375.639.64 1.43.959 2.375.959ZM30.949 27.949v-3.334h27.436v3.334H30.949Zm0 9.23v-3.333h27.436v3.334H30.949ZM19.667 66.667H53v-9.231H16.333v5.897c0 .945.32 1.736.959 2.375.639.64 1.43.959 2.375.959Zm0 0h-3.334H53 19.667Z" fill="#fff"/>
+                          </svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Formulating technical requirements</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Based on the gathered data, analysts develop detailed technical requirements that serve as the basis for the development team. The technical specification includes descriptions of functionality, interfaces, performance requirements, and product security.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.385 66.667c-1.492 0-2.762-.525-3.811-1.574-1.05-1.05-1.574-2.32-1.574-3.81v-37.95c0-.393.04-.755.119-1.086a2.03 2.03 0 0 1 .484-.9l4.538-5.411c.244-.312.525-.546.843-.702A2.394 2.394 0 0 1 20.051 15h39.231c.393 0 .749.078 1.067.234.319.156.6.39.843.702l4.539 5.41c.243.27.405.57.484.9.079.332.118.694.118 1.087v37.95c0 1.49-.524 2.76-1.573 3.81-1.05 1.05-2.32 1.574-3.811 1.574H18.385Zm-.718-45h44l-2.834-3.334H20.5l-2.833 3.334Zm.718 41.666h42.564c.598 0 1.09-.192 1.474-.577.385-.384.577-.876.577-1.474V25H16.333v36.282c0 .598.193 1.09.577 1.474.385.385.876.577 1.475.577Zm29.782-8.936L57.564 45l-9.397-9.397L45.769 38l7 7-7 7 2.398 2.397Zm-16.834 0L33.731 52l-7-7 7-7-2.398-2.397L21.936 45l9.397 9.397Z" fill="#fff"/>
+                          </svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Collaboration with development&nbsp;team</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Analysts closely collaborate with developers at all project stages, ensuring understanding and proper interpretation of technical requirements. They also participate in adapting the project if changes are needed.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M44.333 48.462c.688 0 1.294-.262 1.818-.786.523-.523.785-1.129.785-1.817s-.262-1.294-.785-1.817c-.524-.524-1.13-.786-1.818-.786-.688 0-1.294.262-1.817.786-.523.523-.785 1.129-.785 1.817s.261 1.294.785 1.817c.523.524 1.13.786 1.817.786Zm-1.474-9.385h2.949c.085-1.398.305-2.45.66-3.157.355-.707 1.207-1.694 2.558-2.959 1.41-1.282 2.393-2.426 2.948-3.432.556-1.007.834-2.162.834-3.465 0-2.244-.8-4.114-2.4-5.612-1.601-1.498-3.626-2.247-6.075-2.247-1.85 0-3.494.5-4.932 1.5-1.438 1-2.534 2.363-3.286 4.09l2.706 1.192c.628-1.303 1.394-2.28 2.298-2.932.903-.652 1.975-.978 3.214-.978 1.59 0 2.908.471 3.956 1.413 1.047.943 1.57 2.16 1.57 3.651 0 .906-.254 1.749-.763 2.529-.508.78-1.382 1.719-2.622 2.817-1.406 1.227-2.36 2.352-2.862 3.375-.502 1.024-.753 2.429-.753 4.215Zm-16.474 17.59c-1.535 0-2.816-.514-3.843-1.542C21.514 54.097 21 52.816 21 51.282V15.385c0-1.535.514-2.816 1.542-3.843C23.569 10.514 24.85 10 26.385 10h35.897c1.534 0 2.815.514 3.843 1.542 1.028 1.027 1.542 2.308 1.542 3.843v35.897c0 1.534-.514 2.815-1.542 3.843s-2.309 1.542-3.843 1.542H26.385Zm0-3.334h35.897c.513 0 .983-.213 1.41-.64.428-.428.641-.898.641-1.41V15.384c0-.513-.213-.983-.64-1.41-.428-.428-.898-.642-1.41-.642H26.384c-.513 0-.983.214-1.41.641-.428.428-.642.898-.642 1.41v35.898c0 .513.214.983.641 1.41.428.428.898.641 1.41.641Zm-10 13.334c-1.535 0-2.816-.514-3.843-1.542C11.514 64.097 11 62.816 11 61.282v-39.23h3.333v39.23c0 .513.214.983.641 1.41.428.428.898.641 1.41.641h39.231v3.334h-39.23Z" fill="#fff"/>
+                          </svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Testing and quality control</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>After product development, analysts participate in the testing process to ensure that the final product meets all stated requirements and client expectations.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.385 66.333c-1.535 0-2.816-.514-3.843-1.541C13.514 63.764 13 62.482 13 60.949V50.564h3.333V60.95c0 .513.214.983.641 1.41.428.427.898.641 1.41.641H60.95c.513 0 .983-.214 1.41-.641.427-.427.641-.898.641-1.41V18.385c0-.513-.214-.983-.641-1.41-.427-.428-.898-.642-1.41-.642H18.385c-.513 0-.983.214-1.41.641-.428.428-.642.898-.642 1.41V28.77H13V18.385c0-1.535.514-2.816 1.542-3.843C15.569 13.514 16.85 13 18.385 13h42.564c1.534 0 2.815.514 3.843 1.542 1.027 1.027 1.541 2.308 1.541 3.843v42.564c0 1.534-.514 2.815-1.541 3.843-1.028 1.027-2.31 1.541-3.843 1.541H18.385Zm17.436-13.59-2.36-2.397 9.013-9.013H13V38h29.474l-9.012-9.013 2.358-2.397 13.077 13.077-13.076 13.077Z" fill="#fff"/>
+                          </svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">User experience evaluation</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Analysts conduct UX/UI evaluation to ensure that the final product is not only functional but also user-friendly.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="row">
+                <div class="key-tasks__importance row__col--7">
+                  <div class="importance-block">
+                    <h2 class="importance-block__title">The Importance</h2>
+                    <div class="content content--size-md importance-block__text">
+                      <p>This direction provides a deep understanding of client needs and the market, enabling the creation of products that not only meet current requirements but also adapt to future changes. Well-executed preliminary analysis and technical requirements development minimize the risks of errors during development, reduce time spent on product refinement, and increase client satisfaction.</p>
+                      <div class="content-appeal">
+                        <p>We understand the importance of each stage of product development and strive for excellence at all levels, from analytics to delivering the finished solution to the client.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="contacts-section">
+            <div class="container contacts-section__container">
+              <div class="contacts-section__inner">
+                <h2 class="contacts-section__title">Contact us</h2>
+                <form action="#" class="contacts-section__form">
+                  <input type="text" name="name" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-input" placeholder="Name">
+                  <input type="text" name="phone" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-input js-phone-mask" required placeholder="Phone">
+                  <input type="email" name="email" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-input" placeholder="E-mail">
+                  <textarea name="message" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-textarea js-textarea-autoresizing u-input--type-textarea" cols="" rows="1" placeholder="Here you can briefly write about the project"></textarea>
+                  <div class="contacts-section__form-footer">
+                    <button type="submit" class="btn btn--size-md btn--theme-accent-fill contacts-section__form-btn">
+                      <span class="btn__inner">
+                        <span class="btn__title">Send message</span>
+                        <svg class="u-icon btn__icon btn__icon--dir-rtl">
+                          <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                        </svg>
+                      </span>
+                    </button>
+                    <div class="content contacts-section__form-privacy">
+                      <p>By clicking on the button you agree to the <a href="privacy.html" target="_blank">privacy policy</a></p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer site__footer">
+          <div class="container footer__container">
+            <div class="row footer__row">
+              <div class="footer__col row__col footer__col--contacts row__col--3">
+                <div class="footer__contacts">
+                  <div class="footer__contacts-email">
+                    <a href="mailto:office@ipvision-lab.dev" class="title-size-4 footer__link">office@ipvision-lab.dev</a>
+                  </div>
+                  <div class="footer__contacts-address">Nikou Georgiou, 6 BLOCK C, 3rd floor, Flat/Office 304 1095</div>
+                  <div class="footer__contacts-copyright-wrapper">
+                    <div class="footer__contacts-copyright">© 2024 Ipvision</div>
+                    <p class="footer__privacy d-lg-block">
+                      <a href="https://www.google.com.ua/" target="_blank">Privacy policy</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__col row__col footer__col--nav row__col--2">
+                <nav class="footer__nav" role="navigation">
+                  <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">About</a>
+                    </li>
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">Portfolio</a>
+                    </li>
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">Blog</a>
+                    </li>
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">Contacts</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__col row__col footer__col--services row__col--4">
+                <p class="footer__title">
+                  <a href="#" class="title-size-4 footer__link">Services</a>
+                </p>
+                <div class="footer__services">
+                  <a href="#" class="services-link footer__services-item services-link--size-sm services-link--theme-white">
+                    <span class="services-link__inner">
+                      <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                        <use xlink:href="assets/images/icons/icons.svg#arrow-type-3"></use>
+                      </svg>
+                      <span class="services-link__title">Analytics and Technical Requirements Development</span>
+                    </span>
+                  </a>
+                  <a href="#" class="services-link footer__services-item services-link--size-sm services-link--theme-white">
+                    <span class="services-link__inner">
+                      <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                        <use xlink:href="assets/images/icons/icons.svg#arrow-type-3"></use>
+                      </svg>
+                      <span class="services-link__title">Custom Development of Complex Solutions</span>
+                    </span>
+                  </a>
+                  <a href="#" class="services-link footer__services-item services-link--size-sm services-link--theme-white">
+                    <span class="services-link__inner">
+                      <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                        <use xlink:href="assets/images/icons/icons.svg#arrow-type-3"></use>
+                      </svg>
+                      <span class="services-link__title">SaaS Solutions Delivery</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="footer__privacy d-lg-none">
+                  <a href="https://www.google.com.ua/" target="_blank">Privacy policy</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="assets/js/app.min.js??=v=20240524190722"></script>
+  </body>
+</html>

@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="assets/css/style.min.css??=v=20240524190722">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/static/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/static/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#3B5EEF">
+    <title>IPVISION - Portfolio - Implementing NLP for Text Optimization: A Practical Approach</title>
+  </head>
+  <body>
+    <div id="root" class="site">
+      <div class="site__inner">
+        <header class="header header--theme-black header--type-normal site__header">
+          <div class="container header__container">
+            <div class="header__inner">
+              <a href="/" class="header__logo">
+                <svg width="240" height="32" viewBox="0 0 240 32" class="header__logo-img" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M45.499 1.425h3.487l9.271 29.004h.978L68.55 1.425h3.445L62.34 31.407h-7.145L45.499 1.425Zm47.522 2.977h-6.677v24.029h6.677v2.976H76.138v-2.976h6.719V4.402h-6.72V1.425h16.884v2.977Zm27.915 19.436c0 5.33-3.841 7.995-11.525 7.995-4.961 0-8.462-.992-10.504-2.977-2.041-2.013-3.062-4.905-3.062-8.676h3.487c0 3.346.822 5.628 2.467 6.847 1.645 1.22 4.182 1.829 7.612 1.829 2.666 0 4.664-.369 5.997-1.106 1.361-.765 2.041-2.013 2.041-3.742 0-.482-.056-.936-.17-1.361a2.941 2.941 0 0 0-.595-1.191c-.255-.34-.511-.652-.766-.936-.255-.283-.623-.552-1.105-.808-.409-.217-.82-.43-1.234-.638-.34-.17-.836-.354-1.488-.553a13.57 13.57 0 0 0-1.489-.467c-.368-.114-.907-.27-1.616-.468-.528-.144-1.052-.3-1.573-.468-1.758-.539-3.147-1.006-4.168-1.403a18.819 18.819 0 0 1-3.105-1.574c-1.02-.68-1.772-1.488-2.254-2.424-.453-.936-.68-2.041-.68-3.317 0-4.933 3.544-7.4 10.632-7.4 2.126 0 3.984.298 5.571.893 1.588.595 2.821 1.403 3.7 2.424.879 1.02 1.531 2.112 1.956 3.275.429 1.186.645 2.439.638 3.7h-3.487c0-2.438-.78-4.267-2.339-5.486-1.559-1.22-3.572-1.829-6.039-1.829-4.763 0-7.145 1.446-7.145 4.338 0 1.474.567 2.608 1.702 3.402 1.162.766 3.118 1.574 5.868 2.424.284.085.695.213 1.234.383 1.049.312 1.842.567 2.381.765.567.17 1.319.44 2.254.808.964.34 1.701.667 2.212.979a19.34 19.34 0 0 1 1.786 1.19c.68.482 1.19.979 1.531 1.489.34.51.638 1.12.893 1.829.255.68.382 1.431.382 2.254Zm19.763-19.436h-6.677v24.029h6.677v2.976h-16.884v-2.976h6.72V4.402h-6.72V1.425h16.884v2.977Zm2.055 11.993c0-4.48 1.261-8.165 3.785-11.057C149.062 2.446 152.478 1 156.788 1c4.281 0 7.669 1.446 10.164 4.338 2.524 2.892 3.785 6.577 3.785 11.057 0 4.508-1.261 8.208-3.785 11.1-2.495 2.892-5.883 4.338-10.164 4.338-4.31 0-7.726-1.446-10.249-4.338-2.524-2.892-3.785-6.592-3.785-11.1Zm3.487 0c0 3.743.893 6.762 2.679 9.059 1.815 2.268 4.437 3.402 7.868 3.402 3.402 0 5.996-1.134 7.782-3.402 1.787-2.297 2.68-5.316 2.68-9.059 0-3.714-.893-6.705-2.68-8.973-1.786-2.297-4.38-3.445-7.782-3.445-3.431 0-6.053 1.148-7.868 3.445-1.786 2.268-2.679 5.259-2.679 8.973Zm29.457 15.012V1.425h7.017l14.97 29.004h.978l-.553-2.509V1.425h3.445v29.982h-7.017L179.611 2.403h-.979l.553 2.51v26.494h-3.487Z" fill="#fff" class="logo-title"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22.323 28.43h3.487v2.977-10.334h4.933c4.111 0 7.202-.709 9.272-2.126 2.07-1.446 3.104-4.026 3.104-7.74 0-3.686-1.035-6.238-3.104-7.655-2.07-1.418-5.16-2.127-9.272-2.127h-8.42 3.487v2.977h-3.487V28.43Zm12.035-10.589c-.964.17-2.155.255-3.572.255H25.81V4.402h4.976c2.92 0 5.117.468 6.591 1.404 1.503.907 2.255 2.707 2.255 5.4 0 1.447-.213 2.638-.638 3.573-.425.936-1.063 1.645-1.914 2.127-.852.454-1.77.77-2.722.935Z" fill="#fff" class="logo-title"/>
+                  <path d="M10.342 4.402H25.81V1.425H.135v2.977h6.72v24.029H.134v2.976H25.81v-2.976H10.342V4.402Z" fill="#fff" class="logo-title"/>
+                  <path d="M207.681 15.116c-.374.013-.664-.083-.87-.29-.206-.206-.309-.495-.309-.87V1.303h1.584v12.462l6.859-.194v1.353l-7.264.192Zm19.011-.193-1.72-5.333h-5.468l-1.7 5.333h-1.584l4.405-13.621h3.246l4.386 13.621h-1.565Zm-6.744-6.685h4.599l-2.087-6.492h-.444l-2.068 6.492Zm10.196 6.685V1.302h3.613c1.79 0 3.111.238 3.961.714.85.477 1.275 1.353 1.275 2.628 0 .915-.258 1.61-.773 2.087-.515.476-1.166.74-1.952.792v.464c2.487.051 3.73 1.159 3.73 3.323 0 1.314-.458 2.248-1.372 2.801-.915.541-2.248.812-4 .812h-4.482Zm1.584-7.767h2.087c1.237 0 2.144-.148 2.724-.445.58-.309.87-.914.87-1.816 0-.412-.058-.76-.174-1.043-.116-.283-.264-.502-.445-.657-.167-.155-.425-.27-.773-.348a4.423 4.423 0 0 0-.965-.154 15.5 15.5 0 0 0-1.237-.039h-2.087v4.502Zm0 6.414h2.956c1.275 0 2.216-.167 2.821-.502.605-.348.908-1.024.908-2.029 0-.94-.309-1.597-.927-1.97-.618-.374-1.552-.56-2.802-.56h-2.956v5.061Z" fill="#252525" class="logo-subtitle"/>
+                </svg>
+              </a>
+              <div class="header__aside">
+                <div class="header__country">
+                  <svg class="u-icon d-xs-block header__country-icon">
+                    <use xlink:href="assets/images/icons/icons.svg#location"></use>
+                  </svg>
+                  <div class="header__country-title">Cyprus</div>
+                </div>
+                <p class="header__address d-xs-none">Nikou Georgiou, 6 BLOCK C, 3rd&nbsp;floor, Flat/Office 304 1095</p>
+                <button type="button" class="header__toggle js-header-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                </button>
+              </div>
+            </div>
+            <div class="header__dropdown js-equal-height">
+              <div class="container header__dropdown-container">
+                <div class="header__dropdown-bottom">
+                  <nav class="header__services" role="navigation">
+                    <ul class="header__services-list">
+                      <li class="header__services-item">
+                        <a href="#" class="services-link header__services-link services-link--size-md services-link--theme-gray">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-1"></use>
+                            </svg>
+                            <span class="services-link__title">Analytics and technical requirements development</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="header__services-item">
+                        <a href="#" class="services-link header__services-link services-link--size-md services-link--theme-gray">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-1"></use>
+                            </svg>
+                            <span class="services-link__title">Custom development of&nbsp;complex solutions</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="header__services-item">
+                        <a href="#" class="services-link header__services-link services-link--size-md services-link--theme-gray">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-1"></use>
+                            </svg>
+                            <span class="services-link__title">SaaS solutions delivery</span>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="d-xs-block header__dropdown-contacts">
+                    <a href="mailto:office@ipvision-lab.dev" class="header__dropdown-contacts-email">office@ipvision-lab.dev</a>
+                    <p class="d-xs-block header__address">Nikou Georgiou, 6 BLOCK C, 3rd&nbsp;floor, Flat/Office 304 1095</p>
+                  </div>
+                </div>
+                <nav class="header__nav" role="navigation">
+                  <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">Portfolio</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">Contacts</a>
+                    </li>
+                    <li class="header__nav-item">
+                      <a href="#" class="header__nav-link">Blog</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main role="main" class="site__main">
+          <section class="intro-typical">
+            <div class="container intro-typical__container">
+              <ul class="intro-typical__breadcrumbs u-breadcrumbs u-breadcrumbs--theme-black" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="/" itemprop="item">
+                  <span itemprop="name">Main</span>
+                  </a>
+                  <meta itemprop="position" content="1">
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="https://example.com/" itemprop="item">
+                  <span itemprop="name">Blog</span>
+                  </a>
+                  <meta itemprop="position" content="2">
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <span itemprop="name">Implementing NLP for Text Optimization: A Practical Approach</span>
+                  <meta itemprop="position" content="3">
+                </li>
+              </ul>
+              <header class="intro-typical__header">
+                <div class="row intro-typical__header-row">
+                  <div class="intro-typical__header-col intro-typical__header-col--title row__col--10">
+                    <h1 class="intro-typical__title">Implementing NLP for Text Optimization: A Practical Approach</h1>
+                  </div>
+                </div>
+              </header>
+              <picture class="intro-typical__poster">
+                <source srcset="assets/images/portfolio-poster-4@2x.webp 2x, assets/images/portfolio-poster-4.webp" type="image/webp">
+                <img src="assets/images/portfolio-poster-4.jpg" srcset="assets/images/portfolio-poster-4@2x.jpg 2x" width="1600" height="420" alt="Implementing NLP for Text Optimization: A Practical Approach">
+              </picture>
+            </div>
+          </section>
+          <section class="case-section">
+            <div class="container case-section__container">
+              <div class="row case-section__row">
+                <div class="case-section__col case-section__col--aside row__col--2">
+                  <aside class="case-section__aside case-section__aside--position-sticky">
+                    <h2 class="title-size-4 case-section__aside-title">Other blogs</h2>
+                    <div class="case-section__aside-list">
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link case-section__aside-list-card services-link--size-xs services-link--theme-steel">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Angular: Elevating the User Experience</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link case-section__aside-list-card services-link--size-xs services-link--theme-steel">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Component-Based Architecture</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link case-section__aside-list-card services-link--size-xs services-link--theme-steel">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Two-Way Data Binding</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link case-section__aside-list-card services-link--size-xs services-link--theme-steel">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Rich Ecosystem</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link case-section__aside-list-card services-link--size-xs services-link--theme-steel">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Kotlin: The Backbone of Robust Server-Side Logic</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </aside>
+                </div>
+                <div class="case-section__col case-section__col--main row__col--7">
+                  <div class="content case-section__main content--size-md">
+                    <p>For IT companies in Cyprus looking to leverage NLP for text optimization, the journey begins with choosing the right tools. Several AI-powered writing assistants and content optimization platforms integrate NLP capabilities to suit various needs, from grammar correction and style enhancement to SEO optimization and plagiarism checks.</p>
+                    <p> Integration into existing content creation workflows is crucial. Companies should train their content teams on utilizing these tools effectively, ensuring they complement human creativity rather than replace it. The goal is to strike a balance between automated optimization and personal touch.<br>Natural Language Processing offers unprecedented opportunities for enhancing textual content across the board. By automating tedious aspects of text optimization while preserving—and even enhancing—the original message's integrity, NLP allows IT companies in Cyprus to elevate their content strategy. In doing so, they can engage more effectively with their audience, improve their online visibility, and ultimately drive business success in the digital age.</p>
+                    <div class="content-appeal">
+                      <p>As we move forward, the role of NLP in content creation will only grow, making it an indispensable tool for businesses aiming to stay ahead in the competitive digital landscape.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="contacts-section">
+            <div class="container contacts-section__container">
+              <div class="contacts-section__inner">
+                <h2 class="contacts-section__title">Contact us</h2>
+                <form action="#" class="contacts-section__form">
+                  <input type="text" name="name" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-input" placeholder="Name">
+                  <input type="text" name="phone" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-input js-phone-mask" required placeholder="Phone">
+                  <input type="email" name="email" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-input" placeholder="E-mail">
+                  <textarea name="message" class="u-input u-input--size-md u-input--theme-gray contacts-section__form-textarea js-textarea-autoresizing u-input--type-textarea" cols="" rows="1" placeholder="Here you can briefly write about the project"></textarea>
+                  <div class="contacts-section__form-footer">
+                    <button type="submit" class="btn btn--size-md btn--theme-accent-fill contacts-section__form-btn">
+                      <span class="btn__inner">
+                        <span class="btn__title">Send message</span>
+                        <svg class="u-icon btn__icon btn__icon--dir-rtl">
+                          <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                        </svg>
+                      </span>
+                    </button>
+                    <div class="content contacts-section__form-privacy">
+                      <p>By clicking on the button you agree to the <a href="privacy.html" target="_blank">privacy policy</a></p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer site__footer">
+          <div class="container footer__container">
+            <div class="row footer__row">
+              <div class="footer__col row__col footer__col--contacts row__col--3">
+                <div class="footer__contacts">
+                  <div class="footer__contacts-email">
+                    <a href="mailto:office@ipvision-lab.dev" class="title-size-4 footer__link">office@ipvision-lab.dev</a>
+                  </div>
+                  <div class="footer__contacts-address">Nikou Georgiou, 6 BLOCK C, 3rd floor, Flat/Office 304 1095</div>
+                  <div class="footer__contacts-copyright-wrapper">
+                    <div class="footer__contacts-copyright">© 2024 Ipvision</div>
+                    <p class="footer__privacy d-lg-block">
+                      <a href="https://www.google.com.ua/" target="_blank">Privacy policy</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__col row__col footer__col--nav row__col--2">
+                <nav class="footer__nav" role="navigation">
+                  <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">About</a>
+                    </li>
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">Portfolio</a>
+                    </li>
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">Blog</a>
+                    </li>
+                    <li class="footer__nav-item">
+                      <a href="#" class="title-size-4 footer__link">Contacts</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__col row__col footer__col--services row__col--4">
+                <p class="footer__title">
+                  <a href="#" class="title-size-4 footer__link">Services</a>
+                </p>
+                <div class="footer__services">
+                  <a href="#" class="services-link footer__services-item services-link--size-sm services-link--theme-white">
+                    <span class="services-link__inner">
+                      <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                        <use xlink:href="assets/images/icons/icons.svg#arrow-type-3"></use>
+                      </svg>
+                      <span class="services-link__title">Analytics and Technical Requirements Development</span>
+                    </span>
+                  </a>
+                  <a href="#" class="services-link footer__services-item services-link--size-sm services-link--theme-white">
+                    <span class="services-link__inner">
+                      <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                        <use xlink:href="assets/images/icons/icons.svg#arrow-type-3"></use>
+                      </svg>
+                      <span class="services-link__title">Custom Development of Complex Solutions</span>
+                    </span>
+                  </a>
+                  <a href="#" class="services-link footer__services-item services-link--size-sm services-link--theme-white">
+                    <span class="services-link__inner">
+                      <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                        <use xlink:href="assets/images/icons/icons.svg#arrow-type-3"></use>
+                      </svg>
+                      <span class="services-link__title">SaaS Solutions Delivery</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="footer__privacy d-lg-none">
+                  <a href="https://www.google.com.ua/" target="_blank">Privacy policy</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="assets/js/app.min.js??=v=20240524190722"></script>
+  </body>
+</html>

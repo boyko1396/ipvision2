@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - Analytics and Technical Requirements Development'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-white header--type-absolute'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- layout-intro BEGIN -->
+          <section class="layout-intro layout-intro--theme-1">
+            <div class="container layout-intro__container">
+              <div class="layout-intro__inner">
+                <ul class="u-breadcrumbs u-breadcrumbs--theme-white layout-intro__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" itemprop="item">
+                      <span itemprop="name">Main</span>
+                    </a>
+                    <meta itemprop="position" content="1"/>
+                  </li>
+                  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Analytics and Technical Requirements Development</span>
+                    <meta itemprop="position" content="2"/>
+                  </li>
+                </ul>
+                <div class="layout-intro__content">
+                  <div class="row layout-intro__row">
+                    <div class="row__col--10 layout-intro__col--hero">
+                      <picture class="layout-intro__picture">
+                        <source
+                          srcset="assets/images/services-intro-img-1@2x.webp 2x,
+                                  assets/images/services-intro-img-1.webp"
+                                  type="image/webp">
+                        <img
+                          src="assets/images/services-intro-img-1.png"
+                          srcset="assets/images/services-intro-img-1@2x.png 2x"
+                          width="1060" height="1048" alt="Analytics and Technical Requirements Development">
+                      </picture>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--title">
+                      <h1 class="layout-intro__title">Analytics and Technical Requirements Development</h1>
+                    </div>
+                    <div class="row__col--6 layout-intro__col--text">
+                      <div class="content content--size-md layout-intro__text">
+                        <p>The analytics and technical direction is crucial for creating innovative products, involving studying client needs, analyzing data, and formulating project requirements.</p>
+                      </div>
+                    </div>
+                    <div class="row__col--9 layout-intro__col--action">
+                      <a href="#" class="btn btn--theme-whitelight-fill btn--size-sm layout-intro__btn">
+                        <span class="btn__inner">
+                          <span class="btn__title">Start a project</span>
+                          <svg class="u-icon btn__icon btn__icon--dir-rtl">
+                            <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- layout-intro END -->
+          <!-- key-tasks BEGIN -->
+          <section class="key-tasks">
+            <div class="container key-tasks__container">
+              <h2 class="key-tasks__title">Key tasks</h2>
+              <div class="key-tasks__list key-tasks__list--theme-1">
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M36.3333 37.0001C33.5833 37.0001 31.2292 36.0209 29.2708 34.0626C27.3125 32.1043 26.3333 29.7501 26.3333 27.0001C26.3333 24.25 27.3125 21.8958 29.2708 19.9375C31.2292 17.9792 33.5833 17 36.3333 17C39.0833 17 41.4375 17.9792 43.3958 19.9375C45.3542 21.8958 46.3333 24.25 46.3333 27.0001C46.3333 29.7501 45.3542 32.1043 43.3958 34.0626C41.4375 36.0209 39.0833 37.0001 36.3333 37.0001ZM36.3333 33.6668C38.1667 33.6668 39.7361 33.014 41.0417 31.7084C42.3472 30.4029 43 28.8334 43 27.0001C43 25.1668 42.3472 23.5973 41.0417 22.2918C39.7361 20.9862 38.1667 20.3334 36.3333 20.3334C34.5 20.3334 32.9306 20.9862 31.625 22.2918C30.3194 23.5973 29.6667 25.1668 29.6667 27.0001C29.6667 28.8334 30.3194 30.4029 31.625 31.7084C32.9306 33.014 34.5 33.6668 36.3333 33.6668ZM70.3847 72.1282L61.5128 63.2565C60.4316 64.0086 59.3098 64.5642 58.1474 64.9232C56.985 65.2821 55.8292 65.4616 54.6798 65.4616C51.4873 65.4616 48.7852 64.3508 46.5737 62.1293C44.3622 59.9076 43.2564 57.21 43.2564 54.0363C43.2564 50.8625 44.3672 48.1699 46.5888 45.9583C48.8104 43.7468 51.508 42.6411 54.6818 42.6411C57.8555 42.6411 60.5481 43.7504 62.7597 45.9691C64.9712 48.1878 66.0769 50.8818 66.0769 54.0513C66.0769 55.2094 65.8974 56.3697 65.5385 57.5321C65.1795 58.6945 64.6239 59.8163 63.8718 60.8975L72.7436 69.7693L70.3847 72.1282ZM54.6667 62.1283C56.9573 62.1283 58.8761 61.3547 60.4231 59.8077C61.9701 58.2607 62.7436 56.3419 62.7436 54.0513C62.7436 51.7607 61.9701 49.8419 60.4231 48.2949C58.8761 46.7479 56.9573 45.9744 54.6667 45.9744C52.3761 45.9744 50.4572 46.7479 48.9102 48.2949C47.3632 49.8419 46.5898 51.7607 46.5898 54.0513C46.5898 56.3419 47.3632 58.2607 48.9102 59.8077C50.4572 61.3547 52.3761 62.1283 54.6667 62.1283ZM13 61.1027V55.6347C13 54.2159 13.3974 52.9253 14.1923 51.7628C14.9871 50.6004 16.0684 49.6667 17.4359 48.9616C19.8419 47.7735 22.9615 46.6581 26.7948 45.6154C30.6282 44.5727 34.7756 44.2223 39.2372 44.5642C38.9124 45.1368 38.6212 45.6866 38.3636 46.2137C38.106 46.7407 37.9015 47.287 37.75 47.8526C33.7756 47.6603 30.0983 48.0588 26.7179 49.0482C23.3376 50.0374 20.7799 50.9829 19.0448 51.8847C18.1902 52.2907 17.5246 52.8252 17.0481 53.4883C16.5716 54.1514 16.3333 54.8669 16.3333 55.6347V57.7693H36.9808C37.0876 58.3078 37.2382 58.8655 37.4327 59.4424C37.6271 60.0193 37.844 60.5727 38.0833 61.1027H13Z" fill="white"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Researching client and&nbsp;market&nbsp;needs</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Analysts conduct in-depth analysis of client needs and market trends to identify opportunities for developing new products or improving existing&nbsp;ones.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.667 70c-1.88 0-3.462-.641-4.744-1.923C13.641 66.795 13 65.214 13 63.333v-9.23h10V10h43.333v53.333c0 1.88-.64 3.462-1.923 4.744C63.128 69.359 61.547 70 59.667 70h-40Zm40-3.333c.944 0 1.736-.32 2.375-.959s.958-1.43.958-2.375v-50H26.333v40.77h30v9.23c0 .945.32 1.736.959 2.375.639.64 1.43.959 2.375.959ZM30.949 27.949v-3.334h27.436v3.334H30.949Zm0 9.23v-3.333h27.436v3.334H30.949ZM19.667 66.667H53v-9.231H16.333v5.897c0 .945.32 1.736.959 2.375.639.64 1.43.959 2.375.959Zm0 0h-3.334H53 19.667Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Formulating technical requirements</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Based on the gathered data, analysts develop detailed technical requirements that serve as the basis for the development team. The technical specification includes descriptions of functionality, interfaces, performance requirements, and product security.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.385 66.667c-1.492 0-2.762-.525-3.811-1.574-1.05-1.05-1.574-2.32-1.574-3.81v-37.95c0-.393.04-.755.119-1.086a2.03 2.03 0 0 1 .484-.9l4.538-5.411c.244-.312.525-.546.843-.702A2.394 2.394 0 0 1 20.051 15h39.231c.393 0 .749.078 1.067.234.319.156.6.39.843.702l4.539 5.41c.243.27.405.57.484.9.079.332.118.694.118 1.087v37.95c0 1.49-.524 2.76-1.573 3.81-1.05 1.05-2.32 1.574-3.811 1.574H18.385Zm-.718-45h44l-2.834-3.334H20.5l-2.833 3.334Zm.718 41.666h42.564c.598 0 1.09-.192 1.474-.577.385-.384.577-.876.577-1.474V25H16.333v36.282c0 .598.193 1.09.577 1.474.385.385.876.577 1.475.577Zm29.782-8.936L57.564 45l-9.397-9.397L45.769 38l7 7-7 7 2.398 2.397Zm-16.834 0L33.731 52l-7-7 7-7-2.398-2.397L21.936 45l9.397 9.397Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Collaboration with development&nbsp;team</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Analysts closely collaborate with developers at all project stages, ensuring understanding and proper interpretation of technical requirements. They also participate in adapting the project if changes are needed.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M44.333 48.462c.688 0 1.294-.262 1.818-.786.523-.523.785-1.129.785-1.817s-.262-1.294-.785-1.817c-.524-.524-1.13-.786-1.818-.786-.688 0-1.294.262-1.817.786-.523.523-.785 1.129-.785 1.817s.261 1.294.785 1.817c.523.524 1.13.786 1.817.786Zm-1.474-9.385h2.949c.085-1.398.305-2.45.66-3.157.355-.707 1.207-1.694 2.558-2.959 1.41-1.282 2.393-2.426 2.948-3.432.556-1.007.834-2.162.834-3.465 0-2.244-.8-4.114-2.4-5.612-1.601-1.498-3.626-2.247-6.075-2.247-1.85 0-3.494.5-4.932 1.5-1.438 1-2.534 2.363-3.286 4.09l2.706 1.192c.628-1.303 1.394-2.28 2.298-2.932.903-.652 1.975-.978 3.214-.978 1.59 0 2.908.471 3.956 1.413 1.047.943 1.57 2.16 1.57 3.651 0 .906-.254 1.749-.763 2.529-.508.78-1.382 1.719-2.622 2.817-1.406 1.227-2.36 2.352-2.862 3.375-.502 1.024-.753 2.429-.753 4.215Zm-16.474 17.59c-1.535 0-2.816-.514-3.843-1.542C21.514 54.097 21 52.816 21 51.282V15.385c0-1.535.514-2.816 1.542-3.843C23.569 10.514 24.85 10 26.385 10h35.897c1.534 0 2.815.514 3.843 1.542 1.028 1.027 1.542 2.308 1.542 3.843v35.897c0 1.534-.514 2.815-1.542 3.843s-2.309 1.542-3.843 1.542H26.385Zm0-3.334h35.897c.513 0 .983-.213 1.41-.64.428-.428.641-.898.641-1.41V15.384c0-.513-.213-.983-.64-1.41-.428-.428-.898-.642-1.41-.642H26.384c-.513 0-.983.214-1.41.641-.428.428-.642.898-.642 1.41v35.898c0 .513.214.983.641 1.41.428.428.898.641 1.41.641Zm-10 13.334c-1.535 0-2.816-.514-3.843-1.542C11.514 64.097 11 62.816 11 61.282v-39.23h3.333v39.23c0 .513.214.983.641 1.41.428.428.898.641 1.41.641h39.231v3.334h-39.23Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">Testing and quality control</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>After product development, analysts participate in the testing process to ensure that the final product meets all stated requirements and client expectations.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="key-tasks__list-col">
+                  <article class="key-tasks-card key-tasks__card">
+                    <div class="key-tasks-card__inner">
+                      <header class="key-tasks-card__header">
+                        <picture class="key-tasks-card__picture">
+                          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.385 66.333c-1.535 0-2.816-.514-3.843-1.541C13.514 63.764 13 62.482 13 60.949V50.564h3.333V60.95c0 .513.214.983.641 1.41.428.427.898.641 1.41.641H60.95c.513 0 .983-.214 1.41-.641.427-.427.641-.898.641-1.41V18.385c0-.513-.214-.983-.641-1.41-.427-.428-.898-.642-1.41-.642H18.385c-.513 0-.983.214-1.41.641-.428.428-.642.898-.642 1.41V28.77H13V18.385c0-1.535.514-2.816 1.542-3.843C15.569 13.514 16.85 13 18.385 13h42.564c1.534 0 2.815.514 3.843 1.542 1.027 1.027 1.541 2.308 1.541 3.843v42.564c0 1.534-.514 2.815-1.541 3.843-1.028 1.027-2.31 1.541-3.843 1.541H18.385Zm17.436-13.59-2.36-2.397 9.013-9.013H13V38h29.474l-9.012-9.013 2.358-2.397 13.077 13.077-13.076 13.077Z" fill="#fff"/></svg>
+                        </picture>
+                        <div class="key-tasks-card__counter"></div>
+                      </header>
+                      <h3 class="title-size-4 key-tasks-card__title">User experience evaluation</h3>
+                      <div class="content key-tasks-card__text">
+                        <p>Analysts conduct UX/UI evaluation to ensure that the final product is not only functional but also user-friendly.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="row">
+                <div class="row__col--7 key-tasks__importance">
+                  <div class="importance-block">
+                    <h2 class="importance-block__title">The Importance</h2>
+                    <div class="content content--size-md importance-block__text">
+                      <p>This direction provides a deep understanding of client needs and the market, enabling the creation of products that not only meet current requirements but also adapt to future changes. Well-executed preliminary analysis and technical requirements development minimize the risks of errors during development, reduce time spent on product refinement, and increase client satisfaction.</p>
+                      <div class="content-appeal">
+                        <p>We understand the importance of each stage of product development and strive for excellence at all levels, from analytics to delivering the finished solution to the client.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- key-tasks END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>

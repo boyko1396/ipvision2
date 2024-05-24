@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('assets/html/head.html', {
+    'title': 'IPVISION - Portfolio - A Sustainable Living Web Application'
+  })
+  <body>
+
+    <div id="root" class="site">
+      <div class="site__inner">
+        <!-- header BEGIN -->
+        @@include('assets/html/components/header-absolute.html', {
+          'el': 'site__header header--theme-black header--type-normal'
+        })
+        <!-- header END -->
+        <main role="main" class="site__main">
+          <!-- intro-typical BEGIN -->
+          <section class="intro-typical">
+            <div class="container intro-typical__container">
+              <ul class="u-breadcrumbs u-breadcrumbs--theme-black intro-typical__breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="/" itemprop="item">
+                    <span itemprop="name">Main</span>
+                  </a>
+                  <meta itemprop="position" content="1"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <a href="https://example.com/" itemprop="item">
+                    <span itemprop="name">Portfolio</span>
+                  </a>
+                  <meta itemprop="position" content="2"/>
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                  <span itemprop="name">A Sustainable Living Web Application</span>
+                  <meta itemprop="position" content="3"/>
+                </li>
+              </ul>
+              <header class="intro-typical__header">
+                <div class="row intro-typical__header-row">
+                  <div class="row__col--7 intro-typical__header-col intro-typical__header-col--title">
+                    <h1 class="intro-typical__title">A Sustainable Living Web Application</h1>
+                  </div>
+                  <div class="row__col--7 intro-typical__header-col intro-typical__header-col--content">
+                    <div class="content content--size-md intro-typical__text">
+                      <p>A web app to track carbon footprint, suggest eco-friendly actions, and connect with local sustainable businesses.</p>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <picture class="intro-typical__poster">
+                <source
+                  srcset="assets/images/portfolio-poster-1@2x.webp 2x,
+                          assets/images/portfolio-poster-1.webp"
+                          type="image/webp">
+                <img
+                  src="assets/images/portfolio-poster-1.jpg"
+                  srcset="assets/images/portfolio-poster-1@2x.jpg 2x"
+                  width="1600" height="420" alt="A Sustainable Living Web Application">
+              </picture>
+            </div>
+          </section>
+          <!-- intro-typical END -->
+          <!-- case-section BEGIN -->
+          <section class="case-section">
+            <div class="container case-section__container">
+              <div class="row case-section__row">
+                <div class="row__col--2 case-section__col case-section__col--aside">
+                  <aside class="case-section__aside case-section__aside--position-sticky">
+                    <h2 class="title-size-4 case-section__aside-title">Other cases</h2>
+                    <div class="case-section__aside-list">
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link services-link--theme-steel services-link--size-xs case-section__aside-list-card">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Streamlining Workflow Efficiency: A&nbsp;Case Study in Automation Implementation</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link services-link--theme-steel services-link--size-xs case-section__aside-list-card">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Enhancing User Experience: A Case Study on UI/UX Revamp</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link services-link--theme-steel services-link--size-xs case-section__aside-list-card">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Optimizing Infrastructure: A Case Study in Cloud Migration Strategy</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link services-link--theme-steel services-link--size-xs case-section__aside-list-card">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Securing Digital Assets: A Case Study on Cybersecurity Solutions</span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="case-section__aside-list-col">
+                        <a href="#" class="services-link services-link--theme-steel services-link--size-xs case-section__aside-list-card">
+                          <span class="services-link__inner">
+                            <svg class="u-icon services-link__icon services-link__icon--dir-ltr">
+                              <use xlink:href="assets/images/icons/icons.svg#arrow-type-4"></use>
+                            </svg>
+                            <span class="services-link__title">Scaling for Success: A Case Study in&nbsp;Scalability Strategies for Growing Businesses</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </aside>
+                </div>
+                <div class="row__col--7 case-section__col case-section__col--main">
+                  <div class="content content--size-md case-section__main">
+                    <h2>Client Brief</h2>
+                    <p>A startup focused on promoting sustainable living approached IPVision Lab with the idea of developing a web application that could help users track their carbon footprint based on their daily activities, suggest eco-friendly practices, and connect them with local sustainable businesses.</p>
+                    <h2>Challenge</h2>
+                    <p>The primary challenge was creating an intuitive, user-friendly interface that could engage users of all ages. Additionally, the application needed to process vast amounts of data related to various activities and their environmental impacts accurately. Integrating a local business directory with real-time updates posed another technical challenge.</p>
+                    <h2>Solution Developed</h2>
+                    <h3>User-Centric Design</h3>
+                    <p>The team at IPVision Lab developed a clean, engaging UI/UX design to ensure ease of use. They implemented gamification elements to encourage user participation, such as achievements and badges for reaching eco-friendly milestones.</p>
+                    <div class="content__img-double">
+                      <picture>
+                        <img src="assets/images/content-img-1.jpg">
+                      </picture>
+                      <picture>
+                        <img src="assets/images/content-img-2.jpg">
+                      </picture>
+                    </div>
+                    <h3>Local Business Integration</h3>
+                    <p>The application featured a dynamic directory of local sustainable businesses, powered by a custom-built CMS that allowed business owners to update their listings. This not only supported the local green economy but also provided users with practical ways to live more sustainably.</p>
+                    <h3>Advanced Data Analytics</h3>
+                    <p>To provide accurate carbon footprint calculations, IPVision Lab's developers built a robust backend system capable of analyzing extensive datasets related to different activities' carbon emissions. They also integrated AI algorithms to personalize suggestions for reducing one's carbon footprint.</p>
+                    <h3>Cross-Platform Compatibility</h3>
+                    <p>Recognizing the importance of accessibility, the web application was optimized for various devices and browsers, ensuring a seamless experience across desktops, tablets, and smartphones.</p>
+                    <blockquote>
+                      <p>"Our vision for EcoTrack was ambitious, but IPVision Lab not only delivered on our expectations—they exceeded them. Their technical expertise, creative problem-solving, and commitment to sustainability helped bring our idea to life in ways we couldn't have imagined."</p>
+                      <cite>Client Testimonial</cite>
+                    </blockquote>
+                    <h2>Conclusion</h2>
+                    <p>This case illustrates how IPVision Lab, a young and innovative Cypriot IT company, could leverage its expertise in web application development to create meaningful, impactful solutions that resonate with users and contribute to broader social goals. Through technical skill, creativity, and a user-focused approach, they successfully address complex challenges and deliver exceptional results.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- case-section END -->
+          <!-- contacts-section BEGIN -->
+          @@include('assets/html/components/contacts-section.html')
+          <!-- contacts-section END -->
+        </main>
+        <!-- footer BEGIN -->
+        @@include('assets/html/components/footer.html', {
+          'el': 'site__footer'
+        })
+        <!-- footer END -->
+      </div>
+    </div>
+
+    @@include('assets/html/script.html')
+  </body>
+</html>
