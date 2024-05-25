@@ -85,6 +85,7 @@
     padding-top: var(--fs-2);
     &-action {
       margin: 0 -4rem;
+      justify-content: center;
       flex-wrap: nowrap;
       @media (max-width: $md) {
         flex-wrap: wrap;
